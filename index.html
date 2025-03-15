@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WordTutor</title>
+</head>
+
+<body>
+    <main>
+        <!-- Header Section -->
+        <header>
+            <h1>WordTutor</h1>
+        </header>
+
+        <!-- Level Selection Page -->
+        <div class="container" id="levelSelectionPage">
+            <div>
+                <h2>Seviyeni Seç</h2>
+                <select id="level">
+                    <option value="A1">A1</option>
+                    <option value="A2">A2</option>
+                    <option value="B1">B1</option>
+                    <option value="B2">B2</option>
+                    <option value="C1">C1</option>
+                </select>
+                <button onclick="startLearning()">Başla</button>
+            </div>
+        </div>
+
+        <!-- Main Page -->
+        <div class="container" id="MainPage">
+            <div class="MainPageDivs" id="verification-boxs">
+                <div class="result-box">
+                    <span>✅ Doğru Bilinen Kelimeler</span>
+                    <span id="correctCount">0</span>
+                </div>
+                <div class="result-box">
+                    <span>❌ Yanlış Bilinen Kelimeler</span>
+                    <span id="wrongCount">0</span>
+                </div>
+            </div>
+
+            <div class="MainPageDivs" id="wordCard">
+                <div>
+                    <h2>Kelime Kartı</h2>
+                    <div id="wordContainer">
+                        <p id="word">Word</p> 
+                        <button id="playAudioButton" onclick="playAudio()">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    
+                    <audio id="audio"></audio>
+                    
+                    <input type="text" id="userInput" placeholder="Kelimenin anlamını yaz">
+                    <button onclick="checkAnswer()">Doğrula</button>
+                    <button id="skipWord" onclick="skipWord()">Diğer Kelime</button>
+                </div>
+            </div>
+            <div id="popup">
+                <div>
+                    <div id="popupHeader">
+                        <h2 id="text">Doğru Bilinen Kelimeler</h2>
+                        <button id="CloseButton" onclick="closePopup()">X</button>
+                    </div>
+                    <div class="scroll-container">
+                        <ul id="popupList">
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql.js"></script>
+
+</body>
+
+</html>
