@@ -1,0 +1,505 @@
+* {
+    --blue: #007bff;
+    --blue2: #0056b3;
+    --text-color: #333;
+    --white: #ffffff;
+    --light-grey: #f1f3f5;
+    --border-grey: #343a40;
+    --red:#FF4D4D;
+    --red2: #D43F3F;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--white);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* Header Styling */
+header {
+    display: block;
+    position: relative;
+    background-color: var(--blue);
+    padding: 10px;
+    width: 100vw;
+    color: var(--white);
+}
+
+header h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Level Selection Page */
+#levelSelectionPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#levelSelectionPage >div {
+    display: block;
+    background-color: var(--white);
+    width: 100%;
+    max-width: 450px;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+#levelSelectionPage >div:hover {
+    box-shadow: 0 0 25px var(--border-grey);
+}
+
+#levelSelectionPage h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#levelSelectionPage select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid var(--border-grey);
+    border-radius: 5px;
+    background-color: var(--light-grey);
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+
+#levelSelectionPage select:focus {
+    border-color: var(--blue);
+    outline: none;
+}
+
+#levelSelectionPage button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#levelSelectionPage button:hover {
+    background-color: var(--blue2);
+}
+
+#levelSelectionPage button:active {
+    background-color: var(--blue2);
+}
+
+/* Main Page */
+#MainPage {
+    display: none;
+    flex-direction: row-reverse;
+    padding: 10px 5px;
+    height: 90vh;
+}
+
+.MainPageDivs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#verification-boxs {
+    width: 25%;
+}
+
+.result-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    margin: 15px 0;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+}
+
+.result-box:hover {
+    box-shadow: 0 0 25px var(--border-grey);
+}
+
+.result-box span {
+    margin-top: 20px;
+}
+
+#wordCard {
+    width: 70%;
+    margin: 10px 0;
+}
+
+#wordCard >div {
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    background-color: var(--white);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+#wordCard >div:hover {
+    box-shadow: 0 0 25px var(--border-grey);
+}
+
+#wordContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#word {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#playAudioButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 40px !important;
+    height: 35x !important;
+}
+
+#playAudioButton svg {
+    width: 30px;
+    height: 30px;
+    fill: var(--white);
+}
+
+#playAudioButton:hover svg {
+    fill: var(--white);
+}
+
+#wordCard h2,
+#wordCard p,
+#wordCard audio,
+#wordCard input,
+#wordCard button {
+    margin: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#wordCard p {
+    margin: 30px 15px;
+}
+
+#wordCard input,
+#wordCard button {
+    width: 100%;
+    padding: 5px;
+}
+
+#wordCard input {
+    border: 3px solid var(--light-grey);
+    border-radius: 5px;
+    background-color: var(--light-grey);
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+
+#wordCard input:focus,
+#wordCard input:hover {
+    border-color: var(--blue);
+    outline: none;
+}
+
+#wordCard button {
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#wordCard button:hover,
+#levelSelectionPage button:active {
+    background-color: var(--blue2);
+}
+
+
+
+/* Popup Window Styling */
+.popup-window {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    position: relative;
+    width: 80%;
+    max-height: 70vh;
+    overflow-y: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-container {
+    max-height: 60vh;  /* Daha uygun scroll alanı */
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+.scroll-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background: #007bff;
+    border-radius: 10px;
+}
+
+.word-item {
+    margin-bottom: 15px;
+}
+
+.word-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.word-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+
+#popup{
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(52, 58, 64,0.6);
+}
+
+#popup>div{
+    background-color: #fff;
+    width: 60%;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#popupHeader{
+    padding-bottom: 25px;
+    border-bottom: 2px solid var(--border-grey);
+}
+#text{
+    margin-top: 5px;
+    width: 95%;
+}
+#CloseButton{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: var(--white);
+    background-color: var(--border-grey);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+}
+#CloseButton:hover{
+    color: var(--border-grey);
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+#popupList{
+    padding-top: 20px;
+    list-style: none;
+}
+#popupList li{
+    font-size: 20px;
+    padding: 10px 0;
+    border-bottom: 2px solid var(--light-grey);
+
+}
+
+#popupList li {
+    font-size: 18px;
+    padding: 12px;
+    border-bottom: 1px solid var(--light-grey);
+    cursor: pointer;
+}
+
+#popupList li:hover {
+    background-color: var(--light-grey);
+}
+
+/* Popup içerik kaydırma */
+.popup-content {
+    position: relative;
+    width: 80%;
+    max-height: 70vh;
+    overflow-y: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+}
+
+/* Estetik scroll tasarımı */
+.popup-content::-webkit-scrollbar {
+    width: 10px;
+}
+
+.popup-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.popup-content::-webkit-scrollbar-thumb {
+    background: var(--blue); /* scrollbar rengi */
+    border-radius: 10px;
+}
+
+.popup-content::-webkit-scrollbar-thumb:hover {
+    background: var(--blue2); /* scrollbar hover rengi */
+}
+
+
+
+
+/* Mobile View */
+@media (max-width: 768px) {
+    #levelSelectionPage >div {
+        width: 90%;
+        padding: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+    #MainPage {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    #wordCard {
+        height: 60vh;
+        width: auto;
+        
+    }
+    #wordCard >div{
+        width: 90%;
+        padding: 15px;
+        
+    }
+    #verification-boxs {
+        width: auto;
+        flex-direction: row;
+        height: 25vh;
+    }
+    .result-box{
+        width: 80%;
+        height: 80%;
+        margin: 0 15px;
+    }
+    #wordCard button {
+        font-size: 16px;
+        padding: 10px;
+    }
+    #popup > div {
+        width: 90%;
+        max-height: 80vh;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #levelSelectionPage h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    #levelSelectionPage select,
+    #levelSelectionPage button {
+        font-size: 14px;
+    }
+
+    #wordCard h2,
+    #wordCard p,
+    #wordCard input,
+    #wordCard button {
+        font-size: 20px;
+        margin: 10px;
+    }
+    .result-box span {
+        font-size: 14px;
+    }
+    #word {
+        font-size: 20px;
+    }
+    #wordCard button {
+        padding: 12px;
+    }
+    #popupList li {
+        font-size: 14px;
+    }
+    
+    #playAudioButton{
+        padding: 5px !important;
+    }
+}
