@@ -105,7 +105,8 @@ function startLearningFromStorage(level) {
 function showWord() {
     let wordObj;
     let indexKey;
-    
+    let LanguageLevels = ["A1","A2","B1","B2","C1"]
+    let AllWordsFİnished = false;
     if (repeatDay === true) {
         indexKey = "RepeatWordIndex"; 
     } else {
@@ -114,8 +115,26 @@ function showWord() {
 
     let currentIndex = localStorage.getItem(indexKey);     
     if (currentIndex >= words.length && repeatDay === false) {
-        alert("Tüm kelimeleri tamamladınız!");
-        return;
+        LanguageLevels.forEach(element => {
+            if (element === localStorage.getItem("selectedLevel") && element !== "C1") {
+                startLearningFromStorage(LanguageLevels[LanguageLevels.indexOf(element)+1]);
+                console.log(LanguageLevels[LanguageLevels.indexOf(element)+1]);
+                
+                localStorage.setItem("selectedLevel",LanguageLevels[LanguageLevels.indexOf(element)+1])
+                console.log(1);
+                
+            }else{
+                console.log(2);
+                
+                AllWordsFİnished = true;
+            }
+
+            
+        });
+        if (AllWordsFİnished === true) {
+            alert("Tüm kelimeleri tamamladınız!");
+            return;        
+        }
     }if (currentIndex >= words.length && repeatDay === true) {
         repeatDay = false;
         startLearningFromStorage(JSON.stringify(localStorage.getItem("selectedLevel")).replaceAll('"',''));
