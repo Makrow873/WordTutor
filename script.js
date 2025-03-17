@@ -105,7 +105,7 @@ function startLearningFromStorage(level) {
 function showWord() {
     let wordObj;
     let indexKey;
-    
+    let languageLevels = ["A1","A2","B1","B2","C1"]
     if (repeatDay === true) {
         indexKey = "RepeatWordIndex"; 
     } else {
@@ -114,8 +114,17 @@ function showWord() {
 
     let currentIndex = localStorage.getItem(indexKey);     
     if (currentIndex >= words.length && repeatDay === false) {
-        alert("Tüm kelimeleri tamamladınız!");
-        return;
+        if (languageLevels[languageLevels.indexOf(localStorage.getItem("selectedLevel"))] !== "C1") {
+            localStorage.setItem("selectedLevel",languageLevels[languageLevels.indexOf(localStorage.getItem("selectedLevel")) +1 ]);
+            startLearningFromStorage(localStorage.getItem("selectedLevel"));
+            localStorage.setItem("currentWordIndex",0);
+            return;
+        }else{
+
+            alert("Tüm kelimeleri tamamladınız!");
+            return;
+        }
+        
     }if (currentIndex >= words.length && repeatDay === true) {
         repeatDay = false;
         startLearningFromStorage(JSON.stringify(localStorage.getItem("selectedLevel")).replaceAll('"',''));
@@ -142,10 +151,23 @@ function checkAnswer() {
         
         let userInput = document.getElementById("userInput").value.trim().toLowerCase();
         let correctAnswer = words[localStorage.getItem("currentWordIndex")].meaning.toLowerCase();
+        let find = false;
+        for (let index = 0; index < correctAnswer.length; index++) {            
+            if ("," === correctAnswer[index]) {
+                correctAnswer = correctAnswer.split(",");
+                for (let i = 0; i < correctAnswer.length; i++) {
+                    const element = correctAnswer[i].replaceAll(" ","");
+                    if (element === userInput) {
+                        find = true;
+                    }
+                }
+                break;
+            }
+        }
 
         let renovatedWords ;
 
-        if (userInput === correctAnswer) {
+        if (userInput === correctAnswer || find) {
             correctCount++;
             localStorage.setItem("correctCount", correctCount);
             renovatedWords = words[currentWordIndex];
@@ -183,9 +205,23 @@ function checkAnswer() {
             let userInput = document.getElementById("userInput").value.trim().toLowerCase();
             let correctAnswer = words[localStorage.getItem("RepeatWordIndex")].meaning.toLowerCase();
 
+            let find = false;
+            for (let index = 0; index < correctAnswer.length; index++) {            
+                if ("," === correctAnswer[index]) {
+                    correctAnswer = correctAnswer.split(",");
+                    for (let i = 0; i < correctAnswer.length; i++) {
+                        const element = correctAnswer[i].replaceAll(" ","");
+                        if (element === userInput) {
+                            find = true;
+                        }
+                    }
+                    break;
+                }
+            }
+
             let renovatedWords ;
 
-            if (userInput === correctAnswer) {
+            if (userInput === correctAnswer || find) {
                 correctWords = correctWords.filter(item => item.word !== words[RepeatWordIndex].word);
                 renovatedWords = words[RepeatWordIndex];
                 renovatedWords.knowed = true; 
@@ -231,9 +267,23 @@ function checkAnswer() {
             let userInput = document.getElementById("userInput").value.trim().toLowerCase();
             let correctAnswer = words[localStorage.getItem("RepeatWordIndex")].meaning.toLowerCase();
 
+
+            let find = false;
+            for (let index = 0; index < correctAnswer.length; index++) {            
+                if ("," === correctAnswer[index]) {
+                    correctAnswer = correctAnswer.split(",");
+                    for (let i = 0; i < correctAnswer.length; i++) {
+                        const element = correctAnswer[i].replaceAll(" ","");
+                        if (element === userInput) {
+                            find = true;
+                        }
+                    }
+                    break;
+                }
+            }
             let renovatedWords ;
 
-            if (userInput === correctAnswer) {
+            if (userInput === correctAnswer || find) {
                 correctCount++;
                 wrongCount--;
                 localStorage.setItem("correctCount", correctCount);
@@ -410,4 +460,3 @@ function playAudio() {
     }
     
 }
-

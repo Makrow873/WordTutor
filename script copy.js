@@ -105,8 +105,7 @@ function startLearningFromStorage(level) {
 function showWord() {
     let wordObj;
     let indexKey;
-    let LanguageLevels = ["A1","A2","B1","B2","C1"]
-    let AllWordsFİnished = false;
+    let languageLevels = ["A1","A2","B1","B2","C1"]
     if (repeatDay === true) {
         indexKey = "RepeatWordIndex"; 
     } else {
@@ -115,26 +114,17 @@ function showWord() {
 
     let currentIndex = localStorage.getItem(indexKey);     
     if (currentIndex >= words.length && repeatDay === false) {
-        LanguageLevels.forEach(element => {
-            if (element === localStorage.getItem("selectedLevel") && element !== "C1") {
-                startLearningFromStorage(LanguageLevels[LanguageLevels.indexOf(element)+1]);
-                console.log(LanguageLevels[LanguageLevels.indexOf(element)+1]);
-                
-                localStorage.setItem("selectedLevel",LanguageLevels[LanguageLevels.indexOf(element)+1])
-                console.log(1);
-                
-            }else{
-                console.log(2);
-                
-                AllWordsFİnished = true;
-            }
+        if (languageLevels[languageLevels.indexOf(localStorage.getItem("selectedLevel"))] !== "C1") {
+            localStorage.setItem("selectedLevel",languageLevels[languageLevels.indexOf(localStorage.getItem("selectedLevel")) +1 ]);
+            startLearningFromStorage(localStorage.getItem("selectedLevel"));
+            localStorage.setItem("currentWordIndex",0);
+            return;
+        }else{
 
-            
-        });
-        if (AllWordsFİnished === true) {
             alert("Tüm kelimeleri tamamladınız!");
-            return;        
+            return;
         }
+        
     }if (currentIndex >= words.length && repeatDay === true) {
         repeatDay = false;
         startLearningFromStorage(JSON.stringify(localStorage.getItem("selectedLevel")).replaceAll('"',''));
@@ -160,33 +150,42 @@ function checkAnswer() {
         let currentWordIndex = localStorage.getItem("currentWordIndex");
         
         let userInput = document.getElementById("userInput").value.trim().toLowerCase();
-        let correctAnswer = (words[localStorage.getItem("currentWordIndex")].meaning.toLowerCase()).split(",");
-        
+        let correctAnswer = words[localStorage.getItem("currentWordIndex")].meaning.toLowerCase();
+        let find = false;
+        for (let index = 0; index < correctAnswer.length; index++) {            
+            if ("," === correctAnswer[index]) {
+                correctAnswer = correctAnswer.split(",");
+                for (let i = 0; i < correctAnswer.length; i++) {
+                    const element = correctAnswer[i].replaceAll(" ","");
+                    if (element === userInput) {
+                        find = true;
+                    }
+                }
+                break;
+            }
+        }
 
         let renovatedWords ;
-        for (let index = 0; index < correctAnswer.length; index++) {
-            if (userInput === correctAnswer[index]) {
-                correctCount++;
-                localStorage.setItem("correctCount", correctCount);
-                renovatedWords = words[currentWordIndex];
-                renovatedWords.repeatDay = createRepeatDay(3);
-                renovatedWords.knowed = true; 
-                renovatedWords.trueKnowedCount++;  
-                correctWords.push(renovatedWords);
-                localStorage.setItem("correctWords", JSON.stringify(correctWords));
-            } else {
-                wrongCount++;
-                localStorage.setItem("wrongCount", wrongCount);
-                renovatedWords = words[currentWordIndex];
-                renovatedWords.repeatDay = createRepeatDay(1);
-                renovatedWords.knowed = false; 
-                renovatedWords.trueKnowedCount = 0;  
-                wrongWords.push(renovatedWords);
-                localStorage.setItem("wrongWords", JSON.stringify(wrongWords));
-            }
-            
+
+        if (userInput === correctAnswer || find) {
+            correctCount++;
+            localStorage.setItem("correctCount", correctCount);
+            renovatedWords = words[currentWordIndex];
+            renovatedWords.repeatDay = createRepeatDay(3);
+            renovatedWords.knowed = true; 
+            renovatedWords.trueKnowedCount++;  
+            correctWords.push(renovatedWords);
+            localStorage.setItem("correctWords", JSON.stringify(correctWords));
+        } else {
+            wrongCount++;
+            localStorage.setItem("wrongCount", wrongCount);
+            renovatedWords = words[currentWordIndex];
+            renovatedWords.repeatDay = createRepeatDay(1);
+            renovatedWords.knowed = false; 
+            renovatedWords.trueKnowedCount = 0;  
+            wrongWords.push(renovatedWords);
+            localStorage.setItem("wrongWords", JSON.stringify(wrongWords));
         }
-        
 
         updateScore();
         document.getElementById("userInput").value = "";
@@ -204,42 +203,52 @@ function checkAnswer() {
 
             
             let userInput = document.getElementById("userInput").value.trim().toLowerCase();
-            let correctAnswer = (words[localStorage.getItem("currentWordIndex")].meaning.toLowerCase()).split(",");
+            let correctAnswer = words[localStorage.getItem("RepeatWordIndex")].meaning.toLowerCase();
 
+            let find = false;
+            for (let index = 0; index < correctAnswer.length; index++) {            
+                if ("," === correctAnswer[index]) {
+                    correctAnswer = correctAnswer.split(",");
+                    for (let i = 0; i < correctAnswer.length; i++) {
+                        const element = correctAnswer[i].replaceAll(" ","");
+                        if (element === userInput) {
+                            find = true;
+                        }
+                    }
+                    break;
+                }
+            }
 
             let renovatedWords ;
-            for (let index = 0; index < correctAnswer.length; index++) {
-                if (userInput === correctAnswer[index]) {
-                    correctWords = correctWords.filter(item => item.word !== words[RepeatWordIndex].word);
-                    renovatedWords = words[RepeatWordIndex];
-                    renovatedWords.knowed = true; 
-                    renovatedWords.trueKnowedCount++;
-                    if (renovatedWords.trueKnowedCount > 3) {
-                        renovatedWords.wordFinished = true;
-                        renovatedWords.repeatDay = "";
-                    }else{
-                        renovatedWords.repeatDay = createRepeatDay(3);
-    
-                    }
-                    correctWords.push(renovatedWords);
-                    localStorage.setItem("correctWords", JSON.stringify(correctWords));
-                } else {
-                    wrongCount++;
-                    correctCount--;
-                    localStorage.setItem("wrongCount", wrongCount);
-                    localStorage.setItem("correctCount", correctCount);
-                    correctWords = correctWords.filter(item => item.word !== words[RepeatWordIndex].word);
-                    renovatedWords = words[RepeatWordIndex];
-                    renovatedWords.repeatDay = createRepeatDay(1);
-                    renovatedWords.knowed = false; 
-                    renovatedWords.trueKnowedCount = 0; 
-                    wrongWords.push(renovatedWords);
-                    localStorage.setItem("correctWords", JSON.stringify(correctWords));
-                    localStorage.setItem("wrongWords", JSON.stringify(wrongWords));
+
+            if (userInput === correctAnswer || find) {
+                correctWords = correctWords.filter(item => item.word !== words[RepeatWordIndex].word);
+                renovatedWords = words[RepeatWordIndex];
+                renovatedWords.knowed = true; 
+                renovatedWords.trueKnowedCount++;
+                if (renovatedWords.trueKnowedCount > 3) {
+                    renovatedWords.wordFinished = true;
+                    renovatedWords.repeatDay = "";
+                }else{
+                    renovatedWords.repeatDay = createRepeatDay(3);
+
                 }
-                
+                correctWords.push(renovatedWords);
+                localStorage.setItem("correctWords", JSON.stringify(correctWords));
+            } else {
+                wrongCount++;
+                correctCount--;
+                localStorage.setItem("wrongCount", wrongCount);
+                localStorage.setItem("correctCount", correctCount);
+                correctWords = correctWords.filter(item => item.word !== words[RepeatWordIndex].word);
+                renovatedWords = words[RepeatWordIndex];
+                renovatedWords.repeatDay = createRepeatDay(1);
+                renovatedWords.knowed = false; 
+                renovatedWords.trueKnowedCount = 0; 
+                wrongWords.push(renovatedWords);
+                localStorage.setItem("correctWords", JSON.stringify(correctWords));
+                localStorage.setItem("wrongWords", JSON.stringify(wrongWords));
             }
-            
 
             updateScore();
             document.getElementById("userInput").value = "";
@@ -256,46 +265,56 @@ function checkAnswer() {
             let RepeatWordIndex = localStorage.getItem("RepeatWordIndex");
             
             let userInput = document.getElementById("userInput").value.trim().toLowerCase();
-            let correctAnswer = (words[localStorage.getItem("currentWordIndex")].meaning.toLowerCase()).split(",");
+            let correctAnswer = words[localStorage.getItem("RepeatWordIndex")].meaning.toLowerCase();
 
 
-            let renovatedWords ;
-            for (let index = 0; index < correctAnswer.length; index++) {
-                if (userInput === correctAnswer[index]) {
-                    correctCount++;
-                    wrongCount--;
-                    localStorage.setItem("correctCount", correctCount);
-                    localStorage.setItem("wrongCount", wrongCount);
-                    wrongWords = wrongWords.filter(item => item.word !== words[RepeatWordIndex].word);
-                    renovatedWords = words[RepeatWordIndex];
-                    renovatedWords.knowed = true; 
-                    renovatedWords.trueKnowedCount++;
-                    if (renovatedWords.trueKnowedCount > 3) {
-                        renovatedWords.wordFinished = true;
-                        renovatedWords.repeatDay = "";
-                    }else{
-                        renovatedWords.repeatDay = createRepeatDay(3);
-    
+            let find = false;
+            for (let index = 0; index < correctAnswer.length; index++) {            
+                if ("," === correctAnswer[index]) {
+                    correctAnswer = correctAnswer.split(",");
+                    for (let i = 0; i < correctAnswer.length; i++) {
+                        const element = correctAnswer[i].replaceAll(" ","");
+                        if (element === userInput) {
+                            find = true;
+                        }
                     }
-                    correctWords.push(renovatedWords);
-                    localStorage.setItem("correctWords", JSON.stringify(correctWords));
-                    localStorage.setItem("wrongWords", JSON.stringify(wrongWords));
-    
-                } else {
-                    console.log(wrongWords);
-                    wrongWords = wrongWords.filter(item => item.word !== words[RepeatWordIndex].word);
-                    console.log(wrongWords);
-                    
-                    renovatedWords = words[RepeatWordIndex];
-                    renovatedWords.repeatDay = createRepeatDay(1);
-                    renovatedWords.knowed = false; 
-                    renovatedWords.trueKnowedCount = 0;  
-                    wrongWords.push(renovatedWords);
-                    localStorage.setItem("wrongWords", JSON.stringify(wrongWords));
+                    break;
                 }
-                
             }
-            
+            let renovatedWords ;
+
+            if (userInput === correctAnswer || find) {
+                correctCount++;
+                wrongCount--;
+                localStorage.setItem("correctCount", correctCount);
+                localStorage.setItem("wrongCount", wrongCount);
+                wrongWords = wrongWords.filter(item => item.word !== words[RepeatWordIndex].word);
+                renovatedWords = words[RepeatWordIndex];
+                renovatedWords.knowed = true; 
+                renovatedWords.trueKnowedCount++;
+                if (renovatedWords.trueKnowedCount > 3) {
+                    renovatedWords.wordFinished = true;
+                    renovatedWords.repeatDay = "";
+                }else{
+                    renovatedWords.repeatDay = createRepeatDay(3);
+
+                }
+                correctWords.push(renovatedWords);
+                localStorage.setItem("correctWords", JSON.stringify(correctWords));
+                localStorage.setItem("wrongWords", JSON.stringify(wrongWords));
+
+            } else {
+                console.log(wrongWords);
+                wrongWords = wrongWords.filter(item => item.word !== words[RepeatWordIndex].word);
+                console.log(wrongWords);
+                
+                renovatedWords = words[RepeatWordIndex];
+                renovatedWords.repeatDay = createRepeatDay(1);
+                renovatedWords.knowed = false; 
+                renovatedWords.trueKnowedCount = 0;  
+                wrongWords.push(renovatedWords);
+                localStorage.setItem("wrongWords", JSON.stringify(wrongWords));
+            }
 
             updateScore();
             document.getElementById("userInput").value = "";
