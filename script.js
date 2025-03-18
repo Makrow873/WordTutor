@@ -5,10 +5,11 @@ let pageLoading;
 let words;
 let RepeatWords = [];
 let repeatDay = false;
+let startLearned = false;
+let soundName;
 
 window.onload = function () {
     let selectedLevel = localStorage.getItem("selectedLevel");
-
    
 
     // Eğer seviye seçilmişse, seviyeyi yükle ve ana sayfayı göster
@@ -48,40 +49,76 @@ window.onload = function () {
         
         
     } else {
-        levelSelectionPage.style.display = "flex";
-        MainPage.style.display = "none";
-        localStorage.setItem("currentWordIndex", 0);
-        localStorage.setItem("correctCount", 0);
-        localStorage.setItem("wrongCount", 0);
-        localStorage.setItem("RepeatWordIndex",0);
-        localStorage.setItem("correctWords", JSON.stringify([]));
-        localStorage.setItem("wrongWords", JSON.stringify([]));
-        localStorage.setItem("RepeatWords",JSON.stringify([]));
+        if (!startLearned) {
+            document.getElementById("informationPage").style.display = "flex";
+            levelSelectionPage.style.display = "none";
+            MainPage.style.display = "none";
+            startLearned= true;
+            document.getElementsByClassName("infoButImage")[0].style.display = "flex";
+            document.getElementsByClassName("infoButImage")[1].style.display = "none";
+        }else{
+            levelSelectionPage.style.display = "flex";
+            MainPage.style.display = "none";
+        }
+            localStorage.setItem("currentWordIndex", 0);
+            localStorage.setItem("correctCount", 0);
+            localStorage.setItem("wrongCount", 0);
+            localStorage.setItem("RepeatWordIndex",0);
+            localStorage.setItem("correctWords", JSON.stringify([]));
+            localStorage.setItem("wrongWords", JSON.stringify([]));
+            localStorage.setItem("RepeatWords",JSON.stringify([]));
+        
     }
     
 };
 
+function informationPopup() {    
+    if (localStorage.getItem("selectedLevel") && window.getComputedStyle( document.getElementById("informationPage")).display === "none") {
+        document.getElementById("informationPage").style.display = "flex";
+        MainPage.style.display = "none";
+        document.getElementsByClassName("infoButImage")[0].style.display = "flex";
+        document.getElementsByClassName("infoButImage")[1].style.display = "none";
 
+        return;
+        
+    }if(localStorage.getItem("selectedLevel") && window.getComputedStyle( document.getElementById("informationPage")).display === "flex"){
+        document.getElementById("informationPage").style.display = "none";
+        MainPage.style.display = "flex";
+        document.getElementsByClassName("infoButImage")[0].style.display = "none";
+        document.getElementsByClassName("infoButImage")[1].style.display = "flex";
+        return;        
+    }if (!(localStorage.getItem("selectedLevel")) && window.getComputedStyle( document.getElementById("informationPage")).display === "none") {
+        document.getElementById("informationPage").style.display = "flex";
+        levelSelectionPage.style.display = "none";
+        document.getElementsByClassName("infoButImage")[0].style.display = "flex";
+        document.getElementsByClassName("infoButImage")[1].style.display = "none";
+        return;
+    }if (!(localStorage.getItem("selectedLevel")) && window.getComputedStyle( document.getElementById("informationPage")).display === "flex") {
+        document.getElementById("informationPage").style.display = "none";
+        levelSelectionPage.style.display = "flex";
+        document.getElementsByClassName("infoButImage")[0].style.display = "none";
+        document.getElementsByClassName("infoButImage")[1].style.display = "flex";
+        return;
+    }
+
+}
 
 function startLearning() {
     localStorage.setItem("selectedLevel", document.getElementById("level").value);
-
+    
     levelSelectionPage.style.display = "none";
     MainPage.style.display = "flex";
-    startLearningFromStorage(localStorage.getItem("selectedLevel"));
+    startLearningFromStorage(localStorage.getItem("selectedLevel").replaceAll(" ",""));
 }
 
 function startLearningFromRepeatWords() {
-    console.log("Repeat");
 
     words = JSON.parse(localStorage.getItem("RepeatWords"));
-    console.log(words);
     
     showWord();
 }
 
 function startLearningFromStorage(level) {  
-    console.log("Storage");
       
     fetch("data.json")
         .then(response => {
@@ -92,7 +129,6 @@ function startLearningFromStorage(level) {
         })
         .then(data => {
             words = data[level];
-            console.log(words);
             
             showWord();
         })
@@ -131,10 +167,10 @@ function showWord() {
     }
 
     wordObj = words[currentIndex];
-
+    
     document.getElementsByClassName("word")[0].innerText = wordObj.word;
-    document.getElementById("audio").src = wordObj.audio;
-
+    soundName = wordObj.word;
+    
     playAudio();
 }
 
@@ -312,9 +348,7 @@ function checkAnswer() {
                 localStorage.setItem("wrongWords", JSON.stringify(wrongWords));
 
             } else {
-                console.log(wrongWords);
                 wrongWords = wrongWords.filter(item => item.word !== words[RepeatWordIndex].word);
-                console.log(wrongWords);
                 
                 renovatedWords = words[RepeatWordIndex];
                 renovatedWords.repeatDay = createRepeatDay(1);
@@ -398,10 +432,10 @@ function skipWord() {
             RepeatWordIndex++;
             localStorage.setItem("RepeatWordIndex", RepeatWordIndex);
             openMeaningPage();
-        setTimeout(() => {
-            showWord();
+            setTimeout(() => {
+                showWord();
             
-        }, 5000);
+            }, 5000);
         }else{
             renovatedWords = words[RepeatWordIndex];
             renovatedWords.repeatDay = createRepeatDay(1);
@@ -412,7 +446,11 @@ function skipWord() {
             updateScore();
             RepeatWordIndex++;
             localStorage.setItem("RepeatWordIndex", RepeatWordIndex);
-            showWord();
+            openMeaningPage();
+            setTimeout(() => {
+                showWord();
+            
+            }, 5000);
         }
     }
 }
@@ -434,6 +472,10 @@ function openMeaningPage(){
 
     } else {
         
+        let count = localStorage.getItem("RepeatWordIndex") -1;
+        document.getElementsByClassName("word")[1].innerText = words[count].word;
+        document.getElementById("meaning").innerText = words[count].meaning;
+        document.getElementById("ExampleSenteces").innerText = words[count].example;
     }
     
     setTimeout(() => {
@@ -481,22 +523,32 @@ function closePopup() {
 function playAudio() {
     if (repeatDay === false) {
         if (!pageLoading) {
-            let audio = document.getElementById("audio");
-            let wordObj = words[localStorage.getItem("currentWordIndex")]; // Mevcut kelimeyi al
-            audio.src = wordObj.audio; // Ses kaynağını kelimenin ses dosyasına ayarla
-            audio.play(); // Ses dosyasını çal
+            speakWord(soundName);  // Burada istediğiniz kelimeyi yazabilirsiniz
         } else {
             pageLoading = false;
         }
     } else {
         if (!pageLoading) {
-            let audio = document.getElementById("audio");
-            let wordObj = words[localStorage.getItem("RepeatWordIndex")]; // Mevcut kelimeyi al
-            audio.src = wordObj.audio; // Ses kaynağını kelimenin ses dosyasına ayarla
-            audio.play(); // Ses dosyasını çal
+
+            speakWord(soundName);  // Burada istediğiniz kelimeyi yazabilirsiniz
         } else {
             pageLoading = false;
         }
     }
-    
+}
+
+
+function speakWord(word) {
+    if ('speechSynthesis' in window) {
+        speechSynthesis.cancel();
+
+        const utterance = new SpeechSynthesisUtterance(word);
+        utterance.lang = 'en-US'; // İngilizce için 'en-US', Türkçe için 'tr-TR'
+        utterance.rate = 0.8;  // Hız
+        utterance.pitch = 1; // Ton
+        // Sesli okuma işlemi
+        speechSynthesis.speak(utterance);
+    } else {
+        alert('Speech Synthesis bu tarayıcıda desteklenmiyor.');
+    }
 }

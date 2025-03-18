@@ -14,7 +14,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: var(--white);
+    background: #f5f5f5;
     color: var(--text-color);
     display: flex;
     justify-content: center;
@@ -44,9 +44,97 @@ header h1 {
     font-size: 30px;
 }
 
+.infoBut{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    fill: var(--white);
+    background-color: transparent;
+    border: 0;
+    display: block;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+#infoXBut{
+    display: none;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue);
+    background-color: var(--white);
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid var(--white);
+}
+#informationPage {
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: #f5f5f5;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.info-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+#informationPage h2 {
+    font-size: 28px;
+    color: #4A90E2;
+    margin-bottom: 20px;
+}
+
+#informationPage p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+#informationPage ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    font-size: 18px;
+    color: #333;
+    text-align: left;  /* Liste öğelerini sola hizala */
+}
+
+#informationPage li {
+    margin-bottom: 10px;
+}
+
+footer {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #777;
+}
+
+footer a {
+    color: #4A90E2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
 /* Level Selection Page */
 #levelSelectionPage {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     height: 90vh;
@@ -368,7 +456,7 @@ header h1 {
     margin-top: 5px;
     width: 95%;
 }
-#CloseButton{
+.CloseButton{
     position: absolute;
     top: 15px;
     right: 15px;
@@ -387,9 +475,7 @@ header h1 {
     border: none;
     transition: all 0.3s ease;
 }
-#CloseButton:hover{
-    color: var(--border-grey);
-    background-color: transparent;
+.CloseButton:hover{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 }
