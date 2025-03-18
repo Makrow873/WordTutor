@@ -132,7 +132,7 @@ function showWord() {
 
     wordObj = words[currentIndex];
 
-    document.getElementById("word").innerText = wordObj.word;
+    document.getElementsByClassName("word")[0].innerText = wordObj.word;
     document.getElementById("audio").src = wordObj.audio;
 
     playAudio();
@@ -191,7 +191,11 @@ function checkAnswer() {
         document.getElementById("userInput").value = "";
         currentWordIndex++;
         localStorage.setItem("currentWordIndex", currentWordIndex);
-        showWord();
+        openMeaningPage();
+        setTimeout(() => {
+            showWord();
+            
+        }, 5000);
     } else {
         let RepeatWordIndex = localStorage.getItem("RepeatWordIndex");
         if (words[RepeatWordIndex].knowed) {
@@ -254,7 +258,11 @@ function checkAnswer() {
             document.getElementById("userInput").value = "";
             RepeatWordIndex++;
             localStorage.setItem("RepeatWordIndex", RepeatWordIndex);
+            openMeaningPage();
+        setTimeout(() => {
             showWord();
+            
+        }, 5000);
         }else{
             let correctCount = localStorage.getItem("correctCount");
             let wrongCount = localStorage.getItem("wrongCount");
@@ -320,7 +328,11 @@ function checkAnswer() {
             document.getElementById("userInput").value = "";
             RepeatWordIndex++;
             localStorage.setItem("RepeatWordIndex", RepeatWordIndex);
+            openMeaningPage();
+        setTimeout(() => {
             showWord();
+            
+        }, 5000);
             }
         
     }
@@ -356,7 +368,11 @@ function skipWord() {
         updateScore();
         currentWordIndex++;
         localStorage.setItem("currentWordIndex", currentWordIndex);
-        showWord();
+        openMeaningPage();
+        setTimeout(() => {
+            showWord();
+            
+        }, 5000);
     } else {
         let correctWords = localStorage.getItem("correctWords") ? JSON.parse(localStorage.getItem("correctWords")) : [];
         
@@ -381,7 +397,11 @@ function skipWord() {
             updateScore();
             RepeatWordIndex++;
             localStorage.setItem("RepeatWordIndex", RepeatWordIndex);
+            openMeaningPage();
+        setTimeout(() => {
             showWord();
+            
+        }, 5000);
         }else{
             renovatedWords = words[RepeatWordIndex];
             renovatedWords.repeatDay = createRepeatDay(1);
@@ -401,6 +421,25 @@ function createRepeatDay(days) {
     const date = new Date();
     date.setDate(date.getDate() + days);
     return date;
+}
+
+function openMeaningPage(){
+    document.getElementById("WordCard-Box").style.display = "none";
+    document.getElementById("Meaning-Box").style.display = "flex";
+    if (repeatDay === false) {
+        let count = localStorage.getItem("currentWordIndex") -1;
+        document.getElementsByClassName("word")[1].innerText = words[count].word;
+        document.getElementById("meaning").innerText = words[count].meaning;
+        document.getElementById("ExampleSenteces").innerText = words[count].example;
+
+    } else {
+        
+    }
+    
+    setTimeout(() => {
+        document.getElementById("WordCard-Box").style.display = "flex";
+        document.getElementById("Meaning-Box").style.display = "none";
+    }, 5000);
 }
 
 // Doğru bilinen kelimeler kutusuna tıklanınca doğru kelimeleri göster
@@ -437,6 +476,7 @@ function openPopup(wordsList, title) {
 function closePopup() {
     document.getElementById("popup").style.display = "none";
 }
+
 
 function playAudio() {
     if (repeatDay === false) {

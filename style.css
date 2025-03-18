@@ -155,6 +155,8 @@ header h1 {
 #wordCard {
     width: 70%;
     margin: 10px 0;
+    display: flex;
+    align-items: stretch;
 }
 
 #wordCard >div {
@@ -163,7 +165,9 @@ header h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex: 0.6;
     width: 60%;
+    margin: auto;
     background-color: var(--white);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease;
@@ -173,17 +177,30 @@ header h1 {
     box-shadow: 0 0 25px var(--border-grey);
 }
 
-#wordContainer {
+.wordContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 20px 0;
 }
 
-#word {
-    font-size: 24px;
+.word{
+    font-size: 30px;
     font-weight: bold;
     margin-right: 10px;
+}
+#ExampleSentece, #Meanings{
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom: 1px solid black;
+}
+#ExampleSenteces,#meaning{
+    font-size: 15px;
+}
+#Meaning-Box > label{
+    padding: 10px;
+    margin: 5px;
+    color: black;
 }
 
 #playAudioButton {
@@ -192,8 +209,7 @@ header h1 {
     cursor: pointer;
     display: flex;
     align-items: center;
-    width: 40px !important;
-    height: 35x !important;
+    width: 60px !important;
 }
 
 #playAudioButton svg {
@@ -207,15 +223,18 @@ header h1 {
 }
 
 #wordCard h2,
-#wordCard p,
 #wordCard audio,
 #wordCard input,
-#wordCard button {
-    margin: 15px;
+#wordCard button{
+    margin: 15px !important;
     font-size: 25px;
     font-weight: bold;
 }
 
+#wordCard h2{
+    font-size: 35px !important;
+    color: var(--blue2);
+}
 #wordCard p {
     margin: 30px 15px;
 }
@@ -223,7 +242,7 @@ header h1 {
 #wordCard input,
 #wordCard button {
     width: 100%;
-    padding: 5px;
+    padding: 15px;
 }
 
 #wordCard input {
@@ -253,8 +272,12 @@ header h1 {
 #levelSelectionPage button:active {
     background-color: var(--blue2);
 }
-
-
+#word{
+    font-size: 30px !important;
+}
+#meaning,#ExampleSenteces{
+    font-size: 25px !important;
+}
 
 /* Popup Window Styling */
 .popup-window {
@@ -489,8 +512,8 @@ header h1 {
     .result-box span {
         font-size: 14px;
     }
-    #word {
-        font-size: 20px;
+    .word{
+        font-size: 27px !important;
     }
     #wordCard button {
         padding: 12px;
@@ -500,6 +523,7 @@ header h1 {
     }
     
     #playAudioButton{
+        width: 40px !important;
         padding: 5px !important;
     }
 }

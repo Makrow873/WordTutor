@@ -45,10 +45,10 @@
             </div>
 
             <div class="MainPageDivs" id="wordCard">
-                <div>
-                    <h2>Kelime Kartı</h2>
-                    <div id="wordContainer">
-                        <p id="word">Word</p> 
+                <div id="WordCard-Box">
+                    <h2>Word Card</h2>
+                    <div class="wordContainer">
+                        <p class="word">Word</p> 
                         <button id="playAudioButton" onclick="playAudio()">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                                 <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"></path>
@@ -60,7 +60,24 @@
                     
                     <input type="text" id="userInput" placeholder="Kelimenin anlamını yaz">
                     <button onclick="checkAnswer()">Doğrula</button>
-                    <button id="skipWord" onclick="skipWord()">Diğer Kelime</button>
+                    <button id="skipWord" onclick="skipWord()">Atla</button>
+                </div>
+                <div id="Meaning-Box" style="display: none;">
+                    <h2>Meaning Card</h2>
+                    <div class="wordContainer">
+                        <p class="word" id="word2">Word</p> 
+                        <button id="playAudioButton" onclick="playAudio()">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <audio id="audio2"></audio>
+                    <label id="Meanings">Meaning</label>
+                    <label id="meaning">Meaning</label>
+                    <label id="ExampleSentece">Example Sentence</label>
+                    <label id="ExampleSenteces">For Example</label>
+
                 </div>
             </div>
             <div id="popup">
