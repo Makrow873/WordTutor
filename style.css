@@ -43,21 +43,6 @@ header h1 {
     font-weight: bold;
     font-size: 30px;
 }
-#insta {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-}
-#insta i{
-    text-align: center;
-    padding: 5px;
-    font-size: 20px;
-    border-radius: 50%;
-    color: var(--white);
-    background-color: black;
-}
-
 
 .ResetBut{
     background-color: red;
@@ -145,20 +130,41 @@ header h1 {
     margin-bottom: 10px;
 }
 
-footer {
+#informationPage footer {
+    display: flex ;
+    flex-direction: column;
+    margin-top: 15px;
     font-size: 14px;
-    margin-top: 20px;
     color: #777;
+    width: 100%;
+
 }
 
 footer a {
-    color: #4A90E2;
+    color: var(--blue2);
     text-decoration: none;
     font-weight: bold;
 }
 
 footer a:hover {
     text-decoration: underline;
+}
+#informationPage footer strong,#informationPage footer a{
+    display: inline-block;
+    text-align: center;
+    width: 100vw - 25px;
+}
+#insta {
+    display: flex;
+    width: auto;
+}
+#insta i{
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: var(--white);
+    background-color: black;
 }
 
 
