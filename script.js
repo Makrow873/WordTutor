@@ -539,16 +539,41 @@ function playAudio() {
 
 
 function speakWord(word) {
-    if ('speechSynthesis' in window) {
-        speechSynthesis.cancel();
+        if ('speechSynthesis' in window) {
+            const utterance = new SpeechSynthesisUtterance(word);
+            utterance.lang = 'en-US'; // İngilizce için 'en-US', Türkçe için 'tr-TR'
+            utterance.rate = 1;
+            utterance.pitch = 1;
 
-        const utterance = new SpeechSynthesisUtterance(word);
-        utterance.lang = 'en-US'; // İngilizce için 'en-US', Türkçe için 'tr-TR'
-        utterance.rate = 0.8;  // Hız
-        utterance.pitch = 1; // Ton
-        // Sesli okuma işlemi
-        speechSynthesis.speak(utterance);
-    } else {
-        alert('Speech Synthesis bu tarayıcıda desteklenmiyor.');
-    }
+            // 🔥 iPhone ve Safari için ekstra ses yükleme
+            function loadVoices() {
+                return new Promise((resolve) => {
+                    let voices = speechSynthesis.getVoices();
+                    if (voices.length > 0) {
+                        resolve(voices);
+                    } else {
+                        speechSynthesis.onvoiceschanged = () => {
+                            voices = speechSynthesis.getVoices();
+                            resolve(voices);
+                        };
+                    }
+                });
+            }
+
+            loadVoices().then(voices => {
+                const voice = voices.find(v => v.lang === 'en-US') || voices[0];
+                if (voice) {
+                    utterance.voice = voice;
+                }
+
+                // 🔥 iPhone için ekstra tetikleme
+                speechSynthesis.cancel(); // Önce iptal et (iPhone'da bazen takılıyor)
+                setTimeout(() => {
+                    speechSynthesis.speak(utterance);
+                }, 200); // Gecikme ekledik ki iPhone engellemesin
+            });
+
+        } else {
+            alert('Tarayıcınız sesli okuma desteklemiyor.');
+        }
 }
