@@ -7,6 +7,7 @@ let RepeatWords = [];
 let repeatDay = false;
 let startLearned = false;
 let soundName;
+let timeoutId;
 
 window.onload = function () {
     let selectedLevel = localStorage.getItem("selectedLevel");
@@ -157,6 +158,7 @@ function showWord() {
             localStorage.setItem("selectedLevel",languageLevels[languageLevels.indexOf(localStorage.getItem("selectedLevel")) +1 ]);
             startLearningFromStorage(localStorage.getItem("selectedLevel"));
             localStorage.setItem("currentWordIndex",0);
+            dalgaKonfeti(); 
             return;
         }else{
 
@@ -206,7 +208,7 @@ function checkAnswer() {
 
         let renovatedWords ;
 
-        if (userInput === correctAnswer || find) {
+        if (userInput.replaceAll(" ","") === correctAnswer.replaceAll(" ","") || find) {
             correctCount++;
             localStorage.setItem("correctCount", correctCount);
             renovatedWords = words[currentWordIndex];
@@ -231,7 +233,7 @@ function checkAnswer() {
         currentWordIndex++;
         localStorage.setItem("currentWordIndex", currentWordIndex);
         openMeaningPage();
-        setTimeout(() => {
+        timeoutId= setTimeout(() => {
             showWord();
             
         }, 5000);
@@ -264,7 +266,7 @@ function checkAnswer() {
 
             let renovatedWords ;
 
-            if (userInput === correctAnswer || find) {
+            if (userInput.replaceAll(" ","") === correctAnswer.replaceAll(" ","") || find) {
                 correctWords = correctWords.filter(item => item.word !== words[RepeatWordIndex].word);
                 renovatedWords = words[RepeatWordIndex];
                 renovatedWords.knowed = true; 
@@ -298,7 +300,7 @@ function checkAnswer() {
             RepeatWordIndex++;
             localStorage.setItem("RepeatWordIndex", RepeatWordIndex);
             openMeaningPage();
-        setTimeout(() => {
+        timeoutId = setTimeout(() => {
             showWord();
             
         }, 5000);
@@ -330,7 +332,7 @@ function checkAnswer() {
             }
             let renovatedWords ;
 
-            if (userInput === correctAnswer || find) {
+            if (userInput.replaceAll(" ","") === correctAnswer.replaceAll(" ","") || find) {
                 correctCount++;
                 wrongCount--;
                 localStorage.setItem("correctCount", correctCount);
@@ -366,7 +368,7 @@ function checkAnswer() {
             RepeatWordIndex++;
             localStorage.setItem("RepeatWordIndex", RepeatWordIndex);
             openMeaningPage();
-        setTimeout(() => {
+        timeoutId = setTimeout(() => {
             showWord();
             
         }, 5000);
@@ -406,7 +408,7 @@ function skipWord() {
         currentWordIndex++;
         localStorage.setItem("currentWordIndex", currentWordIndex);
         openMeaningPage();
-        setTimeout(() => {
+        timeoutId = setTimeout(() => {
             showWord();
             
         }, 5000);
@@ -435,7 +437,7 @@ function skipWord() {
             RepeatWordIndex++;
             localStorage.setItem("RepeatWordIndex", RepeatWordIndex);
             openMeaningPage();
-            setTimeout(() => {
+            timeoutId = setTimeout(() => {
                 showWord();
             
             }, 5000);
@@ -450,7 +452,7 @@ function skipWord() {
             RepeatWordIndex++;
             localStorage.setItem("RepeatWordIndex", RepeatWordIndex);
             openMeaningPage();
-            setTimeout(() => {
+            timeoutId = setTimeout(() => {
                 showWord();
             
             }, 5000);
@@ -465,6 +467,7 @@ function createRepeatDay(days) {
 }
 
 function openMeaningPage(){
+    document.getElementById("meaningNextButton").innerText = "Atla";
     document.getElementById("WordCard-Box").style.display = "none";
     document.getElementById("Meaning-Box").style.display = "flex";
     if (repeatDay === false) {
@@ -510,6 +513,11 @@ function openPopup(wordsList, title) {
     wordsList.forEach(wordObj => {
         let listItem = document.createElement("li");        
         // Anlam ve örneği ekle
+        listItem.onclick = function () {
+            // Burada istediğin işlemi yapabilirsin
+            openMeaningForListItem(wordObj.word, wordObj.meaning, wordObj.example);
+        };
+                    
         listItem.innerHTML = `<strong>${wordObj.word}</strong>: ${wordObj.meaning}<br><em>Örnek: ${wordObj.example}</em>`;
         popupList.appendChild(listItem);
     });
@@ -542,46 +550,94 @@ function playAudio() {
 
 
 function speakWord(word) {
-        if ('speechSynthesis' in window) {
-            const utterance = new SpeechSynthesisUtterance(word);
-            utterance.lang = 'en-US'; // İngilizce için 'en-US', Türkçe için 'tr-TR'
-            utterance.rate = 1;
-            utterance.pitch = 1;
+    if ('speechSynthesis' in window) {
+        const utterance = new SpeechSynthesisUtterance(word);
+        utterance.lang = 'en-US'; // İngilizce için 'en-US', Türkçe için 'tr-TR'
+        utterance.rate = 1;
+        utterance.pitch = 1;
 
-            // 🔥 iPhone ve Safari için ekstra ses yükleme
-            function loadVoices() {
-                return new Promise((resolve) => {
-                    let voices = speechSynthesis.getVoices();
-                    if (voices.length > 0) {
+        // 🔥 iPhone ve Safari için ekstra ses yükleme
+        function loadVoices() {
+            return new Promise((resolve) => {
+                let voices = speechSynthesis.getVoices();
+                if (voices.length > 0) {
+                    resolve(voices);
+                } else {
+                    speechSynthesis.onvoiceschanged = () => {
+                        voices = speechSynthesis.getVoices();
                         resolve(voices);
-                    } else {
-                        speechSynthesis.onvoiceschanged = () => {
-                            voices = speechSynthesis.getVoices();
-                            resolve(voices);
-                        };
-                    }
-                });
+                    };
+                }
+            });
+        }
+
+        loadVoices().then(voices => {
+            const voice = voices.find(v => v.lang === 'en-US') || voices[0];
+            if (voice) {
+                utterance.voice = voice;
             }
 
-            loadVoices().then(voices => {
-                const voice = voices.find(v => v.lang === 'en-US') || voices[0];
-                if (voice) {
-                    utterance.voice = voice;
-                }
+            // 🔥 iPhone için ekstra tetikleme
+            speechSynthesis.cancel(); // Önce iptal et (iPhone'da bazen takılıyor)
+            setTimeout(() => {
+                speechSynthesis.speak(utterance);
+            }, 200); // Gecikme ekledik ki iPhone engellemesin
+        });
 
-                // 🔥 iPhone için ekstra tetikleme
-                speechSynthesis.cancel(); // Önce iptal et (iPhone'da bazen takılıyor)
-                setTimeout(() => {
-                    speechSynthesis.speak(utterance);
-                }, 200); // Gecikme ekledik ki iPhone engellemesin
-            });
-
-        } else {
-            alert('Tarayıcınız sesli okuma desteklemiyor.');
-        }
+    } else {
+        alert('Tarayıcınız sesli okuma desteklemiyor.');
+    }
 }
 
 function reset(){
     localStorage.clear();
     location.reload();
+}
+
+
+function dalgaKonfeti() {
+    var count = 200, defaults = { origin: { y: 0.7 } };
+
+    function fire(particleRatio, opts) {
+        confetti(Object.assign({}, defaults, opts, {
+            particleCount: Math.floor(count * particleRatio)
+        }));
+    }
+
+    fire(0.25, { spread: 26, startVelocity: 55 });
+    fire(0.2, { spread: 60 });
+    fire(0.35, { spread: 100, decay: 0.91, scalar: 0.8 });
+    fire(0.1, { spread: 120, startVelocity: 25, decay: 0.92, scalar: 1.2 });
+    fire(0.1, { spread: 120, startVelocity: 45 });
+    
+    setTimeout(() => {
+        document.getElementById("seviye-mesaji").style.display = "none";
+    }, 1500);
+    document.getElementById("seviye-mesaji").style.display = "flex";
+    document.getElementById("seviye-numarasi").innerText = localStorage.getItem("selectedLevel");
+}
+
+function skipWaiting() {
+    if (!clickMeaningListeİtem) {
+        clearTimeout(timeoutId);
+        showWord();   
+    }else{
+        clickMeaningListeİtem = false;
+    }
+    
+    document.getElementById("Meaning-Box").style.display = "none";
+    document.getElementById("WordCard-Box").style.display = "flex";
+}
+let clickMeaningListeİtem = false;
+
+
+function openMeaningForListItem(wordName,meaning,example){
+    clickMeaningListeİtem = true;
+    document.getElementById("WordCard-Box").style.display = "none";
+    document.getElementById("Meaning-Box").style.display = "flex";
+    document.getElementById("popup").style.display = "none";
+    document.getElementsByClassName("word")[1].innerText = wordName;
+    document.getElementById("meaning").innerText = meaning;
+    document.getElementById("ExampleSenteces").innerText = example;
+    document.getElementById("meaningNextButton").innerText = "Kapat";
 }

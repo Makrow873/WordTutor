@@ -32,6 +32,8 @@ main {
 header {
     display: block;
     position: relative;
+    top: 0;
+    left: 0;
     background-color: var(--blue);
     padding: 10px;
     width: 100vw;
@@ -323,10 +325,12 @@ footer a:hover {
 }
 #Meaning-Box > label{
     padding: 10px;
-    margin: 5px;
+    margin: 0 5px;
     color: black;
 }
-
+#Meaning-Box > h2{
+    margin: 0 5px;
+}
 #playAudioButton {
     background-color: transparent;
     border: none;
@@ -568,6 +572,32 @@ footer a:hover {
     background: var(--blue2); /* scrollbar hover rengi */
 }
 
+#seviye-mesaji{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    color: var(--blue2);
+    box-shadow: 2px 2px 0 rgba(52, 58, 64,0.6);
+    justify-content: center;
+    font-size: 35px;
+    align-items: center;
+}#seviye-mesaji>div{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(52, 58, 64,0.6);
+}
+#seviye-mesaji>span{
+    margin: 25px 0;    
+}
 
 
 /* Mobile View */
