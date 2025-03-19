@@ -154,7 +154,7 @@ footer a:hover {
 #informationPage footer strong,#informationPage footer a{
     display: inline-block;
     text-align: center;
-    width: 100vw - 25px;
+    margin: 5px 0;
 }
 #insta {
     display: flex;
