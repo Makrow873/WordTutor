@@ -120,7 +120,11 @@ function startLearningFromRepeatWords() {
 
 function startLearningFromStorage(level) {  
       
-    fetch("data.json")
+    fetch("data.json",{method: 'GET',
+        mode: 'cors', // CORS izinleri için
+        cache: 'no-cache', // Önbelleği iptal et
+        credentials: 'same-origin'})
+        
         .then(response => {
             if (!response.ok) {
                 throw new Error("Veri yüklenemedi!");
