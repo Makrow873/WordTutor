@@ -133,7 +133,6 @@ function startLearningFromStorage(level) {
         })
         .then(data => {
             words = data[level];
-            
             showWord();
         })
         .catch(error => {
@@ -580,4 +579,9 @@ function speakWord(word) {
         } else {
             alert('Tarayıcınız sesli okuma desteklemiyor.');
         }
+}
+
+function reset(){
+    localStorage.clear();
+    location.reload();
 }

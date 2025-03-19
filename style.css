@@ -44,6 +44,22 @@ header h1 {
     font-size: 30px;
 }
 
+
+.ResetBut{
+    background-color: red;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    color: var(--blue);
+    font-size: 20px;
+    border-radius: 50%;
+    fill: var(--white);
+    border: 0;
+    display: block;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
 .infoBut{
     position: absolute;
     width: 30px;
@@ -531,7 +547,6 @@ footer a:hover {
 .popup-content::-webkit-scrollbar-thumb:hover {
     background: var(--blue2); /* scrollbar hover rengi */
 }
-
 
 
 
