@@ -152,6 +152,14 @@ function showWord() {
         indexKey = "currentWordIndex";
     }
 
+    if (localStorage.getItem(indexKey) % 25 === 0 && localStorage.getItem(indexKey) != 0) {
+        showAd();
+        document.getElementById("ADClose").style.display = "none";
+        setTimeout(() => {
+            document.getElementById("ADClose").style.display = "block";
+        }, 15000);
+    }
+
     let currentIndex = localStorage.getItem(indexKey);     
     if (currentIndex >= words.length && repeatDay === false) {
         if (languageLevels[languageLevels.indexOf(localStorage.getItem("selectedLevel"))] !== "C1") {
@@ -170,7 +178,7 @@ function showWord() {
         repeatDay = false;
         startLearningFromStorage(JSON.stringify(localStorage.getItem("selectedLevel")).replaceAll('"',''));
     }
-
+    
     wordObj = words[currentIndex];
     
     document.getElementsByClassName("word")[0].innerText = wordObj.word;
@@ -640,4 +648,12 @@ function openMeaningForListItem(wordName,meaning,example){
     document.getElementById("meaning").innerText = meaning;
     document.getElementById("ExampleSenteces").innerText = example;
     document.getElementById("meaningNextButton").innerText = "Kapat";
+}
+
+function showAd() {
+    document.getElementById('ad-popup').style.display = 'block';
+}
+  
+function closeAd() {
+    document.getElementById('ad-popup').style.display = 'none';
 }

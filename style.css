@@ -599,6 +599,37 @@ footer a:hover {
     margin: 25px 0;    
 }
 
+.ad-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 90vw;
+    height: 90vh;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.ad-content {
+    text-align: center;
+}
+.ad-popup button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ad-popup button:hover {
+    background-color: var(--blue2);
+}
 
 /* Mobile View */
 @media (max-width: 768px) {
