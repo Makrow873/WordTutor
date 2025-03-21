@@ -215,8 +215,9 @@ function checkAnswer() {
         }
 
         let renovatedWords ;
-
-        if (userInput.replaceAll(" ","") === correctAnswer.replaceAll(" ","") || find) {
+        console.log(correctAnswer , " ", typeof correctAnswer);
+        
+        if (userInput.replaceAll(" ","") === JSON.stringify(correctAnswer).replaceAll(" ","") || find) {
             correctCount++;
             localStorage.setItem("correctCount", correctCount);
             renovatedWords = words[currentWordIndex];
