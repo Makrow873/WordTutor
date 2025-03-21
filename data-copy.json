@@ -1,0 +1,2482 @@
+{
+    "A1": [
+      {
+        "word": "accept",
+        "meaning": "kabul etmek",
+        
+        
+        "repeatDay": "",
+        "knowed": false,
+        "trueKnowedCount": 0,
+        "wordFinished": false,
+        
+        "example": "I accept your apology."
+        
+      },
+      {
+        "word": "acquire",
+        "meaning": "edinmek, kazanmak",
+        
+        
+        "repeatDay": "",
+        "knowed": false,
+        "trueKnowedCount": 0,
+        "wordFinished": false,
+        
+        "example": "She acquired a new language in just six months."
+      }
+    ],
+    "A2" : [
+      {
+        "word": "add",
+        "meaning": "eklemek",
+        
+        
+        "repeatDay": "",
+        "knowed": false,
+        "trueKnowedCount": 0,
+        "wordFinished": false,
+        
+        "example": "Please add some sugar to my tea."
+      },
+      {
+        "word": "agree",
+        "meaning": "katılmak",
+        
+        
+        "repeatDay": "",
+        "knowed": false,
+        "trueKnowedCount": 0,
+        "wordFinished": false,
+        
+        "example": "I agree with your opinion."
+      }
+    ],
+    "B1":[
+    {
+      "word": "allow",
+      "meaning": "izin vermek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They do not allow smoking in this building."
+    },
+    {
+      "word": "alter",
+      "meaning": "değiştirmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He altered his plans at the last minute."
+    }],
+    "B2":[
+    {
+      "word": "answer",
+      "meaning": "cevaplamak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She answered all the questions correctly."
+    },
+    {
+      "word": "appear",
+      "meaning": "görünmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He suddenly appeared in the doorway."
+    }],
+    "C1":[
+    {
+      "word": "apply",
+      "meaning": "başvurmak, uygulamak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She applied for the job yesterday."
+    },
+    {
+      "word": "approach",
+      "meaning": "yaklaşmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He approached the dog carefully."
+    },
+    {
+      "word": "arrange",
+      "meaning": "düzenlemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She arranged the books on the shelf."
+    },
+    {
+      "word": "arrive",
+      "meaning": "varmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They arrived at the station on time."
+    },
+    {
+      "word": "ascend",
+      "meaning": "yükselmek, çıkmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The balloon ascended into the sky."
+    },
+    {
+      "word": "ask",
+      "meaning": "sormak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "Can I ask you a question?"
+    },
+    {
+      "word": "assist",
+      "meaning": "yardım etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The teacher assisted the students with their homework."
+    },
+    {
+      "word": "attach",
+      "meaning": "eklemek, iliştirmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "Please attach the file to your email."
+    },
+    {
+      "word": "attempt",
+      "meaning": "denemek, teşebbüs etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He attempted to climb the mountain alone."
+    },
+    {
+      "word": "avoid",
+      "meaning": "kaçınmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She avoids eating fast food."
+    },
+    {
+      "word": "be",
+      "meaning": "olmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She is a doctor."
+    },
+    {
+      "word": "be able to",
+      "meaning": "yapabilmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He is able to swim very fast."
+    },
+    {
+      "word": "be unable",
+      "meaning": "yapamamak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He was unable to complete the task on time."
+    },
+    {
+      "word": "become",
+      "meaning": "olmak, haline gelmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She became a famous writer."
+    },
+    {
+      "word": "begin",
+      "meaning": "başlamak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The meeting begins at 10 AM."
+    },
+    {
+      "word": "believe",
+      "meaning": "inanmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "I believe in hard work."
+    },
+    {
+      "word": "bring",
+      "meaning": "getirmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "Can you bring me a glass of water?"
+    },
+    {
+      "word": "build",
+      "meaning": "inşa etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They built a new house last year."
+    },
+    {
+      "word": "buy",
+      "meaning": "satın almak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "I bought a new phone yesterday."
+    },
+    {
+      "word": "call",
+      "meaning": "aramak, çağırmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She called her friend in the evening."
+    },
+    {
+      "word": "carry",
+      "meaning": "taşımak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He carried the heavy bag upstairs."
+    },
+    {
+      "word": "cease",
+      "meaning": "durdurmak, son vermek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The company ceased operations last year."
+    },
+    {
+      "word": "change",
+      "meaning": "değiştirmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She changed her hairstyle."
+    },
+    {
+      "word": "chase",
+      "meaning": "kovalamak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The dog chased the cat."
+    },
+    {
+      "word": "chat",
+      "meaning": "sohbet etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "We chatted for hours at the café."
+    },
+    {
+      "word": "choose",
+      "meaning": "seçmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He chose the blue shirt."
+    },
+    {
+      "word": "chop",
+      "meaning": "doğramak, kesmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He chopped the onions for the soup."
+    },
+    {
+      "word": "clarify",
+      "meaning": "açıklığa kavuşturmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "Can you clarify your statement?"
+    },
+    {
+      "word": "close",
+      "meaning": "kapatmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He closed the door behind him."
+    },
+    {
+      "word": "come",
+      "meaning": "gelmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He came to the party late."
+    },
+    {
+      "word": "commence",
+      "meaning": "başlamak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The ceremony will commence at noon."
+    },
+    {
+      "word": "communicate",
+      "meaning": "iletişim kurmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They communicated via email."
+    },
+    {
+      "word": "compensate",
+      "meaning": "telafi etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She compensated for her mistake."
+    },
+    {
+      "word": "compose",
+      "meaning": "bestelemek, oluşturmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He composed a beautiful song."
+    },
+    {
+      "word": "comprehend",
+      "meaning": "meaningak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She comprehended the problem easily."
+    },
+    {
+      "word": "conceal",
+      "meaning": "gizlemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He concealed the gift behind his back."
+    },
+    {
+      "word": "confuse",
+      "meaning": "kafasını karıştırmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The complex instructions confused him."
+    },
+    {
+      "word": "consent",
+      "meaning": "rıza göstermek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He consented to the terms."
+    },
+    {
+      "word": "consider",
+      "meaning": "düşünmek, göz önünde bulundurmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "I will consider your offer."
+    },
+    {
+      "word": "construct",
+      "meaning": "inşa etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They constructed a new bridge."
+    },
+    {
+      "word": "consume",
+      "meaning": "tüketmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He consumes a lot of coffee every day."
+    },
+    {
+      "word": "contain",
+      "meaning": "içermek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "This box contains old photos."
+    },
+    {
+      "word": "contemplate",
+      "meaning": "üzerine düşünmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She contemplated her future career."
+    },
+    {
+      "word": "continue",
+      "meaning": "devam etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She continued studying despite being tired."
+    },
+    {
+      "word": "create",
+      "meaning": "oluşturmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He created a stunning painting."
+    },
+    {
+      "word": "create",
+      "meaning": "yaratmak, oluşturmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He created a beautiful painting."
+    },
+    {
+      "word": "cut",
+      "meaning": "kesmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She cut the paper into pieces."
+    },
+    {
+      "word": "deal",
+      "meaning": "ilgilenmek, anlaşmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She deals with customer complaints daily."
+    },
+    {
+      "word": "decide",
+      "meaning": "karar vermek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She decided to move to a new city."
+    },
+    {
+      "word": "delete",
+      "meaning": "silmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He accidentally deleted the file."
+    },
+    {
+      "word": "deliver",
+      "meaning": "teslim etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The courier delivered the package on time."
+    },
+    {
+      "word": "deny",
+      "meaning": "reddetmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She denied the accusations."
+    },
+    {
+      "word": "depart",
+      "meaning": "ayrılmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The train departs at 6 PM."
+    },
+    {
+      "word": "depict",
+      "meaning": "tasvir etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The book depicts a historical event."
+    },
+    {
+      "word": "describe",
+      "meaning": "tanımlamak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "Can you describe your hometown?"
+    },
+    {
+      "word": "desire",
+      "meaning": "arzu etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She desires success in her career."
+    },
+    {
+      "word": "determine",
+      "meaning": "belirlemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The test determines your skill level."
+    },
+    {
+      "word": "develop",
+      "meaning": "geliştirmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The company developed a new software."
+    },
+    {
+      "word": "devour",
+      "meaning": "bir çırpıda yemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He devoured the entire pizza in minutes."
+    },
+    {
+      "word": "die",
+      "meaning": "ölmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The plant died due to lack of water."
+    },
+    {
+      "word": "diminish",
+      "meaning": "azalmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "His strength diminished over time."
+    },
+    {
+      "word": "disagree",
+      "meaning": "aynı fikirde olmamak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "I disagree with your opinion."
+    },
+    {
+      "word": "disappear",
+      "meaning": "gözden kaybolmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The magician disappeared in a flash."
+    },
+    {
+      "word": "discover",
+      "meaning": "keşfetmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They discovered a new planet."
+    },
+    {
+      "word": "dislike",
+      "meaning": "hoşlanmamak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He dislikes loud music."
+    },
+    {
+      "word": "dismiss",
+      "meaning": "kovmak, reddetmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The manager dismissed his complaints."
+    },
+    {
+      "word": "dispatch",
+      "meaning": "göndermek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They dispatched the package yesterday."
+    },
+    {
+      "word": "display",
+      "meaning": "sergilemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The museum displays ancient artifacts."
+    },
+    {
+      "word": "dispose",
+      "meaning": "elden çıkarmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He disposed of the old newspapers."
+    },
+    {
+      "word": "disregard",
+      "meaning": "önemsememek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She disregarded his advice."
+    },
+    {
+      "word": "distrust",
+      "meaning": "güvenmemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He distrusted strangers."
+    },
+    {
+      "word": "do",
+      "meaning": "yapmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She does her homework every evening."
+    },
+    {
+      "word": "doubt",
+      "meaning": "şüphelenmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He doubted her sincerity."
+    },
+    {
+      "word": "drive",
+      "meaning": "sürmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She drives to work every day."
+    },
+    {
+      "word": "drop",
+      "meaning": "düşürmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He dropped his phone on the floor."
+    },
+    {
+      "word": "eat",
+      "meaning": "yemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "I ate a delicious cake."
+    },
+    {
+      "word": "educate",
+      "meaning": "eğitmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "Teachers educate young minds."
+    },
+    {
+      "word": "employ",
+      "meaning": "işe almak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The company employs 500 people."
+    },
+    {
+      "word": "encounter",
+      "meaning": "karşılaşmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They encountered a wild animal."
+    },
+    {
+      "word": "end",
+      "meaning": "bitirmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The movie ended at midnight."
+    },
+    {
+      "word": "enjoy",
+      "meaning": "keyif almak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "I enjoy reading books."
+    },
+    {
+      "word": "erase",
+      "meaning": "silmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He erased the board."
+    },
+    {
+      "word": "exclude",
+      "meaning": "hariç tutmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They excluded him from the meeting."
+    },
+    {
+      "word": "execute",
+      "meaning": "yürütmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The officer executed the plan perfectly."
+    },
+    {
+      "word": "exist",
+      "meaning": "var olmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "Life exists in many forms."
+    },
+    {
+      "word": "expand",
+      "meaning": "genişletmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They expanded their business."
+    },
+    {
+      "word": "experience",
+      "meaning": "deneyimlemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She experienced culture shock abroad."
+    },
+    {
+      "word": "explain",
+      "meaning": "açıklamak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He explained the problem to his friend."
+    },
+    {
+      "word": "fail",
+      "meaning": "başarısız olmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He failed his driving test."
+    },
+    {
+      "word": "fall",
+      "meaning": "düşmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She fell off the bike."
+    },
+    {
+      "word": "fast",
+      "meaning": "oruç tutmak, hızlı olmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She fasts during Ramadan."
+    },
+    {
+      "word": "feel",
+      "meaning": "hissetmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He felt happy after the news."
+    },
+    {
+      "word": "find",
+      "meaning": "bulmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He found his lost keys."
+    },
+    {
+      "word": "finish",
+      "meaning": "bitirmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She finished reading the book."
+    },
+    {
+      "word": "follow",
+      "meaning": "takip etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She followed her dreams."
+    },
+    {
+      "word": "forget",
+      "meaning": "unutmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "I forgot my password."
+    },
+    {
+      "word": "forward",
+      "meaning": "iletmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He forwarded the email to his manager."
+    },
+    {
+      "word": "get",
+      "meaning": "almak, edinmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He got a new job."
+    },
+    {
+      "word": "give",
+      "meaning": "vermek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She gave me a present."
+    },
+    {
+      "word": "give up",
+      "meaning": "vazgeçmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He gave up smoking last year."
+    },
+    {
+      "word": "go",
+      "meaning": "gitmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They went to the cinema."
+    },
+    {
+      "word": "grab",
+      "meaning": "kapmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He grabbed his coat and left."
+    },
+    {
+      "word": "grasp",
+      "meaning": "kavramak, meaningak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She quickly grasped the concept."
+    },
+    {
+      "word": "grow",
+      "meaning": "büyümek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The tree grew very tall."
+    },
+    {
+      "word": "halt",
+      "meaning": "durdurmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The police halted the traffic."
+    },
+    {
+      "word": "have",
+      "meaning": "sahip olmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She has a cat."
+    },
+    {
+      "word": "have the ability",
+      "meaning": "yeteneği olmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She has the ability to learn quickly."
+    },
+    {
+      "word": "hear",
+      "meaning": "duymak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "I heard a strange noise."
+    },
+    {
+      "word": "help",
+      "meaning": "yardım etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "Can you help me with this task?"
+    },
+    {
+      "word": "hesitate",
+      "meaning": "tereddüt etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He hesitated before answering."
+    },
+    {
+      "word": "hide",
+      "meaning": "saklamak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She hid the gift under the bed."
+    },
+    {
+      "word": "hold",
+      "meaning": "tutmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He held the baby in his arms."
+    },
+    {
+      "word": "ignore",
+      "meaning": "görmezden gelmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He ignored her messages."
+    },
+    {
+      "word": "include",
+      "meaning": "dahil etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The price includes taxes."
+    },
+    {
+      "word": "inform",
+      "meaning": "bilgilendirmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They informed him about the changes."
+    },
+    {
+      "word": "inquire",
+      "meaning": "sormak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He inquired about the price."
+    },
+    {
+      "word": "instruct",
+      "meaning": "talimat vermek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He instructed the students on safety rules."
+    },
+    {
+      "word": "invent",
+      "meaning": "icat etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He invented a new device."
+    },
+    {
+      "word": "join",
+      "meaning": "katılmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She joined the book club."
+    },
+    {
+      "word": "keep",
+      "meaning": "tutmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She keeps a diary."
+    },
+    {
+      "word": "know",
+      "meaning": "bilmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She knows the answer."
+    },
+    {
+      "word": "learn",
+      "meaning": "öğrenmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She learned a new language."
+    },
+    {
+      "word": "leave",
+      "meaning": "ayrılmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He left the office early."
+    },
+    {
+      "word": "like",
+      "meaning": "hoşlanmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "I like chocolate."
+    },
+    {
+      "word": "linger",
+      "meaning": "oyalanmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They lingered at the café for hours."
+    },
+    {
+      "word": "listen",
+      "meaning": "dinlemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He listens to music daily."
+    },
+    {
+      "word": "live",
+      "meaning": "yaşamak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They live in a small village."
+    },
+    {
+      "word": "look",
+      "meaning": "bakmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She looked at the painting."
+    },
+    {
+      "word": "lose",
+      "meaning": "kaybetmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "I lost my phone yesterday."
+    },
+    {
+      "word": "make",
+      "meaning": "yapmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She made a cake for the party."
+    },
+    {
+      "word": "march",
+      "meaning": "yürüyüş yapmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The soldiers marched in formation."
+    },
+    {
+      "word": "mean",
+      "meaning": "meaningına gelmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "What does this word mean?"
+    },
+    {
+      "word": "modify",
+      "meaning": "değiştirmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He modified the design slightly."
+    },
+    {
+      "word": "move",
+      "meaning": "taşınmak, hareket etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They moved to a new house."
+    },
+    {
+      "word": "need",
+      "meaning": "ihtiyaç duymak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "I need some rest."
+    },
+    {
+      "word": "neglect",
+      "meaning": "ihmal etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She neglected her responsibilities."
+    },
+    {
+      "word": "notice",
+      "meaning": "fark etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He noticed a mistake in the report."
+    },
+    {
+      "word": "obscure",
+      "meaning": "gizlemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The clouds obscured the sun."
+    },
+    {
+      "word": "obtain",
+      "meaning": "elde etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He obtained a visa for travel."
+    },
+    {
+      "word": "offer",
+      "meaning": "teklif etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They offered him a job."
+    },
+    {
+      "word": "open",
+      "meaning": "açmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He opened the window."
+    },
+    {
+      "word": "operate",
+      "meaning": "çalıştırmak, işletmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She operates a small business."
+    },
+    {
+      "word": "park",
+      "meaning": "park etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He parked the car near the mall."
+    },
+    {
+      "word": "pay",
+      "meaning": "ödemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She paid for the dinner."
+    },
+    {
+      "word": "perch",
+      "meaning": "konmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The bird perched on the tree branch."
+    },
+    {
+      "word": "ponder",
+      "meaning": "derin düşünmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He pondered over the decision."
+    },
+    {
+      "word": "possess",
+      "meaning": "sahip olmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He possesses great talent."
+    },
+    {
+      "word": "present",
+      "meaning": "sunmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She presented her project to the class."
+    },
+    {
+      "word": "read",
+      "meaning": "okumak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He reads a book every night."
+    },
+    {
+      "word": "receive",
+      "meaning": "almak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "I received your email yesterday."
+    },
+    {
+      "word": "relax",
+      "meaning": "rahatlamak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She relaxed by the beach."
+    },
+    {
+      "word": "remain",
+      "meaning": "kalmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He remained silent during the meeting."
+    },
+    {
+      "word": "remove",
+      "meaning": "çıkarmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He removed the stain from his shirt."
+    },
+    {
+      "word": "reply",
+      "meaning": "cevap vermek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She replied to his text immediately."
+    },
+    {
+      "word": "ruin",
+      "meaning": "mahvetmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The rain ruined their picnic plans."
+    },
+    {
+      "word": "run",
+      "meaning": "koşmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She runs every morning."
+    },
+    {
+      "word": "rush",
+      "meaning": "acele etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He rushed to catch the bus."
+    },
+    {
+      "word": "say",
+      "meaning": "söylemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He said hello to everyone."
+    },
+    {
+      "word": "scribble",
+      "meaning": "karalamak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The child scribbled on the wall."
+    },
+    {
+      "word": "see",
+      "meaning": "görmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "I saw a rainbow yesterday."
+    },
+    {
+      "word": "sell",
+      "meaning": "satmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They sold their old car."
+    },
+    {
+      "word": "send",
+      "meaning": "göndermek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She sent me an email."
+    },
+    {
+      "word": "shift",
+      "meaning": "değiştirmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He shifted his focus to a new project."
+    },
+    {
+      "word": "sit",
+      "meaning": "oturmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He sat on the chair."
+    },
+    {
+      "word": "sleep",
+      "meaning": "uyumak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She sleeps early every night."
+    },
+    {
+      "word": "speak",
+      "meaning": "konuşmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He speaks three languages."
+    },
+    {
+      "word": "spend",
+      "meaning": "harcamak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She spent a lot of money on shopping."
+    },
+    {
+      "word": "sprint",
+      "meaning": "hızla koşmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He sprinted to catch the train."
+    },
+    {
+      "word": "stand",
+      "meaning": "ayakta durmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She stood by the door."
+    },
+    {
+      "word": "start",
+      "meaning": "başlamak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He started a new job."
+    },
+    {
+      "word": "starve",
+      "meaning": "aç kalmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They were starving after the long hike."
+    },
+    {
+      "word": "stop",
+      "meaning": "durmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The car stopped suddenly."
+    },
+    {
+      "word": "succeed",
+      "meaning": "başarmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She succeeded in her goal."
+    },
+    {
+      "word": "summon",
+      "meaning": "çağırmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The king summoned his advisors."
+    },
+    {
+      "word": "take",
+      "meaning": "almak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She took a picture of the sunset."
+    },
+    {
+      "word": "talk",
+      "meaning": "konuşmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They talked for hours."
+    },
+    {
+      "word": "teach",
+      "meaning": "öğretmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He teaches English at a school."
+    },
+    {
+      "word": "tell",
+      "meaning": "söylemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She told me a secret."
+    },
+    {
+      "word": "test",
+      "meaning": "test etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They tested the new software."
+    },
+    {
+      "word": "think",
+      "meaning": "düşünmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "I think he is right."
+    },
+    {
+      "word": "toil",
+      "meaning": "çok çalışmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He toiled all night to finish the project."
+    },
+    {
+      "word": "trail",
+      "meaning": "izlemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The detective trailed the suspect."
+    },
+    {
+      "word": "travel",
+      "meaning": "seyahat etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She traveled to Japan last year."
+    },
+    {
+      "word": "try",
+      "meaning": "denemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She tried a new recipe."
+    },
+    {
+      "word": "tumble",
+      "meaning": "yuvarlanmak, düşmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He tumbled down the stairs."
+    },
+    {
+      "word": "turn",
+      "meaning": "dönmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She turned around to see who called her."
+    },
+    {
+      "word": "unset",
+      "meaning": "bozmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "The news unsettled him."
+    },
+    {
+      "word": "use",
+      "meaning": "kullanmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He used his phone for navigation."
+    },
+    {
+      "word": "view",
+      "meaning": "görmek, incelemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They viewed the exhibition."
+    },
+    {
+      "word": "wait",
+      "meaning": "beklemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "They waited for the bus."
+    },
+    {
+      "word": "walk",
+      "meaning": "yürümek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She walks to work every day."
+    },
+    {
+      "word": "want",
+      "meaning": "istemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "I want to travel the world."
+    },
+    {
+      "word": "waste",
+      "meaning": "israf etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He wasted a lot of time watching TV."
+    },
+    {
+      "word": "watch",
+      "meaning": "izlemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He watched a movie last night."
+    },
+    {
+      "word": "waver",
+      "meaning": "tereddüt etmek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She wavered between two choices."
+    },
+    {
+      "word": "wish",
+      "meaning": "dilemek",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He wished for a better future."
+    },
+    {
+      "word": "work",
+      "meaning": "çalışmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "She works in an office."
+    },
+    {
+      "word": "write",
+      "meaning": "yazmak",
+      
+      
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      
+      "example": "He wrote a letter to his friend."
+    }]
+  }
