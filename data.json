@@ -1,5 +1,602 @@
 {
-  "A1" :[
+  "A1":[
+    {
+      "word": "be together",
+      "meaning": "birlikte olmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "They have been together for five years."
+    },
+    {
+      "word": "become friends",
+      "meaning": "arkadaş olmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "We became friends in high school."
+    },
+    {
+      "word": "break up",
+      "meaning": "ayrılmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "They decided to break up after three years."
+    },
+    {
+      "word": "get in touch",
+      "meaning": "iletişime geçmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "I’ll get in touch with you next week."
+    },
+    {
+      "word": "get married",
+      "meaning": "evlenmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "They got married in 2020."
+    },
+    {
+      "word": "get on",
+      "meaning": "iyi geçinmek, anlaşmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "They really get on well with each other."
+    },
+    {
+      "word": "get to know",
+      "meaning": "tanımaya başlamak (daha iyi)",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "It takes time to get to know someone."
+    },
+    {
+      "word": "go out together",
+      "meaning": "birlikte çıkmak (romantik)",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "They have been going out together for a year."
+    },
+    {
+      "word": "have (sth) in common",
+      "meaning": "ortak noktalara sahip olmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "We have a lot in common."
+    },
+    {
+      "word": "lose touch",
+      "meaning": "iletişimi kaybetmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "We lost touch after university."
+    },
+    {
+      "word": "meet",
+      "meaning": "tanışmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "They met at a party."
+    },
+    {
+      "word": "propose",
+      "meaning": "evlilik teklifi etmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "He proposed to her on Valentine’s Day."
+    },
+    {
+      "word": "thriller",
+      "meaning": "gerilim",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "I love watching thrillers."
+    },
+    {
+      "word": "cast",
+      "meaning": "bir filmde oynayan tüm oyuncular",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The movie has a great cast."
+    },
+    {
+      "word": "star",
+      "meaning": "filmin önemli aktörü",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "He is the star of the movie."
+    },
+    {
+      "word": "audience",
+      "meaning": "seyirci, kitle",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The audience loved the performance."
+    },
+    {
+      "word": "plot",
+      "meaning": "filmin konusu",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The plot of the movie was really interesting."
+    },
+    {
+      "word": "sequel",
+      "meaning": "devam filmi",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The sequel was even better than the first movie."
+    },
+    {
+      "word": "special effects",
+      "meaning": "özel efektler",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The special effects in that movie were amazing."
+    },
+    {
+      "word": "trailer",
+      "meaning": "fragman",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The trailer made me want to watch the movie."
+    },
+    {
+      "word": "review",
+      "meaning": "inceleme",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The review of the movie was excellent."
+    },
+    {
+      "word": "set",
+      "meaning": "ayarlamak, film çekilen yer",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The set of the movie was beautifully designed."
+    },
+    {
+      "word": "critic",
+      "meaning": "eleştirmen",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The critic gave the film a bad review."
+    },
+    {
+      "word": "scene",
+      "meaning": "sahne",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The most exciting scene in the movie was the chase."
+    },
+    {
+      "word": "soundtrack",
+      "meaning": "film müziği",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The soundtrack of the movie was unforgettable."
+    },
+    {
+      "word": "extra",
+      "meaning": "figüran",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "He worked as an extra in the film."
+    },
+    {
+      "word": "script",
+      "meaning": "senaryo",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The script was written by a famous screenwriter."
+    },
+    {
+      "word": "subtitles",
+      "meaning": "alt yazı",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The movie was in Spanish, so I had to use subtitles."
+    },
+    {
+      "word": "base on",
+      "meaning": "temellendirmek, dayandırmak (fikir, görüş, olaya)",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The film is based on a true story."
+    },
+    {
+      "word": "play the part of",
+      "meaning": "rolünü yapmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "She plays the part of a detective in the movie."
+    },
+    {
+      "word": "set in",
+      "meaning": "bir durumun başlaması, yerleşmesi",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The movie is set in New York."
+    },
+    {
+      "word": "directed by",
+      "meaning": "tarafından yönetildi",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The movie was directed by Steven Spielberg."
+    },
+    {
+      "word": "shot on location",
+      "meaning": "doğal ortamında bir yerde çekilmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The film was shot on location in Italy."
+    },
+    {
+      "word": "dub",
+      "meaning": "dublaj yapmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The movie was dubbed in several languages."
+    },
+    {
+      "word": "captain",
+      "meaning": "kaptan",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The captain of the ship gave a speech to the crew."
+    },
+    {
+      "word": "coach",
+      "meaning": "koç",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The coach trained the team for the championship."
+    },
+    {
+      "word": "fans",
+      "meaning": "fanatikler",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The fans cheered loudly for their team."
+    },
+    {
+      "word": "referee/umpire",
+      "meaning": "hakem",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The referee made a controversial decision."
+    },
+    {
+      "word": "spectators/the crowd",
+      "meaning": "seyirci/kalabalık",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The crowd was excited about the match."
+    },
+    {
+      "word": "sports hall",
+      "meaning": "spor salonu",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The match will take place in the sports hall."
+    },
+    {
+      "word": "tennis/basketball - court",
+      "meaning": "tenis/basketbol - saha",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The players warmed up on the court."
+    },
+    {
+      "word": "football/rugby/hockey - pitch",
+      "meaning": "futbol/ragbi/hokey - saha",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The game was played on a muddy pitch."
+    },
+    {
+      "word": "swimming/diving - pool",
+      "meaning": "yüzme/dalış - havuz",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The swimming competition was held in the pool."
+    },
+    {
+      "word": "athletics - track",
+      "meaning": "atletizm - pist",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The runners competed on the track."
+    },
+    {
+      "word": "formula1/motorcycling - circuit",
+      "meaning": "formula1/motosiklet - pist",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The race was held on a challenging circuit."
+    },
+    {
+      "word": "golf - course",
+      "meaning": "golf - saha",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The golf course was beautifully landscaped."
+    },
+    {
+      "word": "ski - slope",
+      "meaning": "kayak - yokuş",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The ski slope was perfect for beginners."
+    },
+    {
+      "word": "beat",
+      "meaning": "yenmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "They beat their rivals in the final."
+    },
+    {
+      "word": "win",
+      "meaning": "kazanmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "She won the competition last year."
+    },
+    {
+      "word": "lose",
+      "meaning": "kaybetmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "They lost the match in the final minutes."
+    },
+    {
+      "word": "draw",
+      "meaning": "beraber kalmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The game ended in a draw."
+    },
+    {
+      "word": "get fit",
+      "meaning": "formda olmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "She works out regularly to get fit."
+    },
+    {
+      "word": "get injured",
+      "meaning": "yaralanmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "He got injured during the game."
+    },
+    {
+      "word": "kick",
+      "meaning": "tekmelemek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "He kicked the ball into the net."
+    },
+    {
+      "word": "throw",
+      "meaning": "fırlatmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "She threw the ball across the field."
+    },
+    {
+      "word": "warm up",
+      "meaning": "ısınmak/egzersiz yapmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "They always warm up before the match."
+    },
+    {
+      "word": "works out",
+      "meaning": "egzersiz, spor yapmak / bir şeyi başarılı sonuçlandırmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "She works out every morning to stay healthy."
+    },
+    {
+      "word": "send off",
+      "meaning": "birini yolcu etmek, bir şeyi göndermek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The team sent off their star player with a standing ovation."
+    },
+    {
+      "word": "knock out",
+      "meaning": "bayıltmak, etkisiz hale getirmek / etkileyici gelmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "He knocked out his opponent in the second round."
+    },
+    {
+      "word": "classmate",
+      "meaning": "sınıf arkadaşı",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "My classmate helped me with the homework."
+    },
+    {
+      "word": "close friend",
+      "meaning": "yakın arkadaş",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "She is my closest friend and always supports me."
+    },
+    {
+      "word": "colleague",
+      "meaning": "iş arkadaşı",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "I had a meeting with my colleagues yesterday."
+    },
+    {
+      "word": "couple",
+      "meaning": "çift",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "They make a great couple and are always together."
+    },
+    {
+      "word": "ex",
+      "meaning": "eski",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "My ex called me last week."
+    },
+    {
+      "word": "fiance/fiancee",
+      "meaning": "nişanlı",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "He introduced his fiancée to his family."
+    },
+    {
+      "word": "flatmate",
+      "meaning": "ev arkadaşı",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "My flatmate is moving out next month."
+    }
+  ]
+  ,
+  "A2" :[
     {
       "word": "Get",
       "meaning": "almak, edinmek",
@@ -856,7 +1453,7 @@
       "example": "She warned me about the dangerous road."
   }
     
-  ],"A2":[
+  ],"B1":[
     {
       "word": "Take after",
       "meaning": "benzemek (birine)",
