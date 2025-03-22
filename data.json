@@ -1,590 +1,52 @@
 {
-  "A1": [
+  "A1" :[
     {
-      "word": "accept",
-      "meaning": "kabul etmek",
-      
-      
+      "word": "Get",
+      "meaning": "almak, edinmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      
-      "example": "I accept your apology."
-      
+      "example": "I need to get some food."
     },
     {
-      "word": "acquire",
-      "meaning": "edinmek, kazanmak",
-      
-      
+      "word": "Take",
+      "meaning": "almak, götürmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      
-      "example": "She acquired a new language in just six months."
+      "example": "Take the book and read it."
     },
     {
-      "word": "allow",
-      "meaning": "izin vermek",
+      "word": "Tell",
+      "meaning": "anlatmak, söylemek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "They don’t allow smoking here."
+      "example": "Tell me what happened."
     },
     {
-      "word": "ask",
-      "meaning": "sormak",
+      "word": "Seem",
+      "meaning": "görünmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "She asked me a question."
+      "example": "You seem happy today."
     },
     {
-      "word": "believe",
-      "meaning": "inanmak",
+      "word": "Leave",
+      "meaning": "ayrılmak, bırakmak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "I believe in hard work."
+      "example": "I will leave at 5 PM."
     },
     {
-      "word": "bring",
-      "meaning": "getirmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Can you bring the book tomorrow?"
-    },
-    {
-      "word": "call",
-      "meaning": "aramak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I’ll call you when I arrive."
-    },
-    {
-      "word": "choose",
-      "meaning": "seçmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I can’t choose between these two options."
-    },
-    {
-      "word": "come",
-      "meaning": "gelmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "She comes to work early every day."
-    },
-    {
-      "word": "continue",
-      "meaning": "devam etmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Please continue with your work."
-    },
-    {
-      "word": "decide",
-      "meaning": "karar vermek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I’ve decided to take the job offer."
-    },
-    {
-      "word": "do",
-      "meaning": "yapmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I do my homework every day."
-    },
-    {
-      "word": "enjoy",
-      "meaning": "keyfini çıkarmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I enjoy playing soccer on weekends."
-    },
-    {
-      "word": "finish",
-      "meaning": "bitirmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I will finish this project by Friday."
-    },
-    {
-      "word": "forget",
-      "meaning": "unutmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I always forget my keys at home."
-    },
-    {
-      "word": "give",
-      "meaning": "vermek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I will give you a call tomorrow."
-    },
-    {
-      "word": "go",
-      "meaning": "gitmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "They are going to the park this afternoon."
-    },
-    {
-      "word": "have",
-      "meaning": "sahip olmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I have two dogs."
-    },
-    {
-      "word": "know",
-      "meaning": "bilmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Do you know how to swim?"
-    },
-    {
-      "word": "learn",
-      "meaning": "öğrenmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I’m learning French."
-    },
-    {
-      "word": "like",
-      "meaning": "beğenmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I like to read books in my free time."
-    },
-    {
-      "word": "need",
-      "meaning": "ihtiyaç duymak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I need a new phone."
-    },
-    {
-      "word": "offer",
-      "meaning": "teklif etmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "She offered me a job."
-    },
-    {
-      "word": "open",
-      "meaning": "açmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Can you open the window?"
-    },
-    {
-      "word": "play",
-      "meaning": "oynamak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "They play football every weekend."
-    },
-    {
-      "word": "put",
-      "meaning": "koymak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Put the keys on the table."
-    },
-    {
-      "word": "read",
-      "meaning": "okumak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "She reads a lot of books."
-    },
-    {
-      "word": "run",
-      "meaning": "koşmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "He runs every morning in the park."
-    },
-    {
-      "word": "say",
-      "meaning": "söylemek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "What did he say about the project?"
-    },
-    {
-      "word": "see",
-      "meaning": "görmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I saw her at the party last night."
-    },
-    {
-      "word": "sell",
-      "meaning": "satmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "They sell fresh vegetables at the market."
-    },
-    {
-      "word": "send",
-      "meaning": "göndermek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I will send you an email tomorrow."
-    },
-    {
-      "word": "show",
-      "meaning": "göstermek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Can you show me the way?"
-    },
-    {
-      "word": "speak",
-      "meaning": "konuşmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "She speaks three languages fluently."
-    },
-    {
-      "word": "take",
-      "meaning": "almak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Take an umbrella, it’s going to rain."
-    },
-    {
-      "word": "tell",
-      "meaning": "söylemek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "He told me about his plans."
-    },
-    {
-      "word": "think",
-      "meaning": "düşünmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I need some time to think about it."
-    },
-    {
-      "word": "want",
-      "meaning": "istemek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I want to go to the beach."
-    },
-    {
-      "word": "work",
-      "meaning": "çalışmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "He works in a bank."
-    },
-    {
-      "word": "write",
-      "meaning": "yazmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "She writes articles for a magazine."
-    },
-    {
-      "word": "believe",
-      "meaning": "inanmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I believe in you."
-    },
-    {
-      "word": "borrow",
-      "meaning": "ödünç almak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Can I borrow your pen?"
-    },
-    {
-      "word": "choose",
-      "meaning": "seçmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I choose this one."
-    },
-    {
-      "word": "clean",
-      "meaning": "temizlemek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "She cleaned the room yesterday."
-    },
-    {
-      "word": "close",
-      "meaning": "kapatmak, yakın",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Please close the door."
-    },
-    {
-      "word": "continue",
-      "meaning": "devam etmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "We will continue this tomorrow."
-    },
-    {
-      "word": "decide",
-      "meaning": "karar vermek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "They decided to go on a trip."
-    },
-    {
-      "word": "enjoy",
-      "meaning": "keyif almak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I enjoy watching movies in the evening."
-    },
-    {
-      "word": "expect",
-      "meaning": "beklemek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I expect you to finish the work by Friday."
-    },
-    {
-      "word": "fail",
-      "meaning": "başarısız olmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "He failed the exam."
-    },
-    {
-      "word": "find",
-      "meaning": "bulmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I can’t find my keys."
-    },
-    {
-      "word": "forget",
-      "meaning": "unutmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Don’t forget to call me."
-    },
-    {
-      "word": "give",
-      "meaning": "vermek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I gave her a gift."
-    },
-    {
-      "word": "go",
-      "meaning": "gitmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I am going to the store."
-    },
-    {
-      "word": "help",
-      "meaning": "yardım etmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Can you help me with this?"
-    },
-    {
-      "word": "hear",
-      "meaning": "duymak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Did you hear the news?"
-    },
-    {
-      "word": "hold",
-      "meaning": "tutmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Please hold my bag."
-    },
-    {
-      "word": "jump",
-      "meaning": "zıplamak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "The cat jumped over the fence."
-    },
-    {
-      "word": "keep",
-      "meaning": "saklamak, tutmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Keep the change."
-    },
-    {
-      "word": "learn",
-      "meaning": "öğrenmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I want to learn how to cook."
-    },
-    {
-      "word": "listen",
-      "meaning": "dinlemek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I like to listen to music while working."
-    },
-    {
-      "word": "live",
-      "meaning": "yaşamak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I live in Istanbul."
-    },
-    {
-      "word": "look",
-      "meaning": "bakmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Look at that beautiful painting."
-    },
-    {
-      "word": "make",
-      "meaning": "yapmak, oluşturmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "She makes delicious cakes."
-    },
-    {
-      "word": "mean",
+      "word": "Mean",
       "meaning": "anlamına gelmek",
       "repeatDay": "",
       "knowed": false,
@@ -593,1140 +55,1705 @@
       "example": "What does this word mean?"
     },
     {
-      "word": "open",
-      "meaning": "açmak",
+      "word": "Keep",
+      "meaning": "tutmak, saklamak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "Please open the window."
+      "example": "Keep your promise."
     },
     {
-      "word": "play",
-      "meaning": "oynamak, çalmak",
+      "word": "Let",
+      "meaning": "izin vermek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "He plays the guitar very well."
+      "example": "Let me help you with that."
     },
     {
-      "word": "read",
-      "meaning": "okumak",
+      "word": "Hear",
+      "meaning": "duymak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "I like to read books in my free time."
+      "example": "Did you hear the news?"
     },
     {
-      "word": "run",
-      "meaning": "koşmak",
+      "word": "Move",
+      "meaning": "hareket etmek, taşınmak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "She runs every morning for exercise."
+      "example": "I will move to a new house."
     },
     {
-      "word": "say",
-      "meaning": "söylemek",
+      "word": "Hold",
+      "meaning": "tutmak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "He said he would be here soon."
+      "example": "Hold the door for me."
     },
     {
-      "word": "see",
-      "meaning": "görmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I can’t see the screen clearly."
-    },
-    {
-      "word": "set",
-      "meaning": "koymak, ayarlamak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Please set the table for dinner."
-    },
-    {
-      "word": "sing",
-      "meaning": "şarkı söylemek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "She loves to sing in the shower."
-    },
-    {
-      "word": "speak",
-      "meaning": "konuşmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "He speaks three languages."
-    },
-    {
-      "word": "stand",
-      "meaning": "durmak, ayakta durmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "She stood in the middle of the room."
-    },
-    {
-      "word": "take",
-      "meaning": "almak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "He took my book by mistake."
-    },
-    {
-      "word": "talk",
-      "meaning": "konuşmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "They talked for hours last night."
-    },
-    {
-      "word": "think",
-      "meaning": "düşünmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I need some time to think about it."
-    },
-    {
-      "word": "try",
-      "meaning": "denemek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Try to solve the puzzle."
-    },
-    {
-      "word": "use",
-      "meaning": "kullanmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I use my phone for everything."
-    },
-    {
-      "word": "wait",
-      "meaning": "beklemek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I had to wait for an hour."
-    },
-    {
-      "word": "walk",
-      "meaning": "yürümek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Let’s walk to the park."
-    },
-    {
-      "word": "want",
-      "meaning": "istemek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I want a cup of coffee."
-    },
-    {
-      "word": "watch",
-      "meaning": "izlemek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I like to watch movies on the weekend."
-    },
-    {
-      "word": "work",
-      "meaning": "çalışmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "She works as a teacher."
-    },
-    {
-      "word": "write",
-      "meaning": "yazmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I write in my journal every day."
-    },
-    {
-      "word": "arrive",
-      "meaning": "varmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "We will arrive at the airport at 7 pm."
-    },
-    {
-      "word": "bring",
+      "word": "Bring",
       "meaning": "getirmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "Can you bring me a cup of water?"
+      "example": "Can you bring me some coffee?"
     },
     {
-      "word": "change",
+      "word": "Happen",
+      "meaning": "olmak, meydana gelmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "What happened last night?"
+    },
+    {
+      "word": "Sit",
+      "meaning": "oturmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "Please sit down."
+    },
+    {
+      "word": "Stand",
+      "meaning": "ayakta durmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "She stood in the corner."
+    },
+    {
+      "word": "Pay",
+      "meaning": "ödemek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "I need to pay the bill."
+    },
+    {
+      "word": "Meet",
+      "meaning": "tanışmak, buluşmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "We will meet tomorrow."
+    },
+    {
+      "word": "Include",
+      "meaning": "içermek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The price includes taxes."
+    },
+    {
+      "word": "Continue",
+      "meaning": "devam etmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "You should continue working hard."
+    },
+    {
+      "word": "Set",
+      "meaning": "ayarlamak, belirlemek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "I set the alarm for 7 AM."
+    },
+    {
+      "word": "Kill",
+      "meaning": "öldürmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The lion can kill its prey."
+    },
+    {
+      "word": "Change",
       "meaning": "değiştirmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "I need to change my clothes."
+      "example": "You need to change your password."
     },
     {
-      "word": "clean",
-      "meaning": "temizlemek",
+      "word": "Lead",
+      "meaning": "liderlik etmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "He cleans his room every Saturday."
+      "example": "She will lead the team."
     },
     {
-      "word": "come",
-      "meaning": "gelmek",
+      "word": "Follow",
+      "meaning": "takip etmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "Come to the party tonight!"
+      "example": "I will follow you."
     },
     {
-      "word": "complete",
-      "meaning": "tamamlamak",
+      "word": "Create",
+      "meaning": "oluşturmak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "I will complete the project by tomorrow."
+      "example": "They created a new design."
     },
     {
-      "word": "consider",
-      "meaning": "düşünmek, göz önünde bulundurmak",
+      "word": "Spend",
+      "meaning": "harcamak (para, zaman)",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "I will consider your offer."
+      "example": "I spent two hours studying."
     },
     {
-      "word": "cook",
-      "meaning": "pişirmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I cook dinner every night."
-    },
-    {
-      "word": "cost",
-      "meaning": "mal olmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "The book costs $15."
-    },
-    {
-      "word": "count",
-      "meaning": "saymak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Can you count the number of apples?"
-    },
-    {
-      "word": "decide",
-      "meaning": "karar vermek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I decided to go to the gym this morning."
-    },
-    {
-      "word": "deliver",
-      "meaning": "teslim etmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "They will deliver the package tomorrow."
-    },
-    {
-      "word": "describe",
-      "meaning": "tanımlamak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Please describe your experience."
-    },
-    {
-      "word": "develop",
-      "meaning": "geliştirmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "She developed a new app for students."
-    }  
-  ],
-  "A2":[
-    {
-      "word": "break down",
-      "meaning": "bozulmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "My car broke down on the highway."
-    },
-    {
-      "word": "bring up",
-      "meaning": "bahsetmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "She brought up an interesting topic in the meeting."
-    },
-    {
-      "word": "call off",
-      "meaning": "iptal etmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "They called off the event due to bad weather."
-    },
-    {
-      "word": "check out",
-      "meaning": "kontrol etmek, incelemek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Check out this new restaurant I found."
-    },
-    {
-      "word": "come across",
-      "meaning": "tesadüfen bulmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I came across an old photo album yesterday."
-    },
-    {
-      "word": "come up with",
-      "meaning": "bulmak, çözüm üretmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "He came up with a great idea for the project."
-    },
-    {
-      "word": "get along with",
-      "meaning": "iyi geçinmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I get along well with my coworkers."
-    },
-    {
-      "word": "give up",
-      "meaning": "pes etmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Don’t give up, you’re almost there."
-    },
-    {
-      "word": "go over",
-      "meaning": "gözden geçirmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Let’s go over the details of the plan."
-    },
-    {
-      "word": "hold on",
-      "meaning": "beklemek, tutunmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Hold on a minute, I’ll be right back."
-    },
-    {
-      "word": "look after",
-      "meaning": "bakmak, ilgilenmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "She looks after her younger brother."
-    },
-    {
-      "word": "look for",
-      "meaning": "aramak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I’m looking for my keys."
-    },
-    {
-      "word": "pick up",
-      "meaning": "toplamak, almak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Can you pick up the groceries on your way home?"
-    },
-    {
-      "word": "run out of",
-      "meaning": "tükenmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "We ran out of milk this morning."
-    },
-    {
-      "word": "run into",
-      "meaning": "karşılaşmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I ran into an old friend at the mall."
-    },
-    {
-      "word": "set up",
-      "meaning": "kurmak, ayarlamak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "They set up the new computer yesterday."
-    },
-    {
-      "word": "take over",
-      "meaning": "devralmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "He took over the company after his father retired."
-    },
-    {
-      "word": "turn down",
-      "meaning": "reddetmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "She turned down the job offer."
-    },
-    {
-      "word": "turn up",
-      "meaning": "görünmek, çıkmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "He didn’t turn up to the meeting."
-    },
-    {
-      "word": "work out",
-      "meaning": "çalışmak, çözmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Everything will work out in the end."
-    },
-    {
-      "word": "break up",
-      "meaning": "ayrılmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "They broke up after two years together."
-    },
-    {
-      "word": "bring about",
-      "meaning": "sebep olmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "The new law will bring about significant changes."
-    },
-    {
-      "word": "call for",
-      "meaning": "gerektirmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "This situation calls for immediate action."
-    },
-    {
-      "word": "carry on",
-      "meaning": "devam etmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Carry on with your work while I’m gone."
-    },
-    {
-      "word": "check in",
-      "meaning": "kayıt yaptırmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "We need to check in at least an hour before the flight."
-    },
-    {
-      "word": "come in",
-      "meaning": "girmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Please come in and sit down."
-    },
-    {
-      "word": "fall apart",
-      "meaning": "parçalanmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "The old book started to fall apart."
-    },
-    {
-      "word": "fill out",
-      "meaning": "doldurmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Please fill out this form."
-    },
-    {
-      "word": "get by",
-      "meaning": "geçinmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "How do you get by on such a small salary?"
-    },
-    {
-      "word": "get on",
-      "meaning": "iyi geçinmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I get on well with my colleagues."
-    },
-    {
-      "word": "give in",
-      "meaning": "boyun eğmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I finally gave in to his request."
-    },
-    {
-      "word": "go ahead",
-      "meaning": "devam etmek, başlayabilmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "You can go ahead with your presentation."
-    },
-    {
-      "word": "grow up",
+      "word": "Grow",
       "meaning": "büyümek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "I want to be a doctor when I grow up."
+      "example": "The plants will grow in the garden."
     },
     {
-      "word": "hand in",
-      "meaning": "teslim etmek",
+      "word": "Offer",
+      "meaning": "teklif etmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "Please hand in your assignments by Friday."
+      "example": "I want to offer you a job."
     },
     {
-      "word": "hold up",
-      "meaning": "geciktirmek",
+      "word": "Remember",
+      "meaning": "hatırlamak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "Sorry I’m late, I was held up in traffic."
+      "example": "Remember to call me."
     },
     {
-      "word": "keep up",
-      "meaning": "ayak uydurmak",
+      "word": "Consider",
+      "meaning": "düşünmek, değerlendirmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "I can’t keep up with the fast pace of this course."
+      "example": "Consider all options before deciding."
     },
     {
-      "word": "let down",
-      "meaning": "hayal kırıklığına uğratmak",
+      "word": "Appear",
+      "meaning": "görünmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "She let me down by not showing up."
+      "example": "The sky appeared clear after the storm."
     },
     {
-      "word": "look after",
-      "meaning": "bakmak, ilgilenmek",
+      "word": "Buy",
+      "meaning": "satın almak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "Can you look after my dog while I’m away?"
+      "example": "I will buy a new phone."
     },
     {
-      "word": "look forward to",
-      "meaning": "dört gözle beklemek",
+      "word": "Serve",
+      "meaning": "hizmet etmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "I’m looking forward to the weekend."
+      "example": "She serves customers at the restaurant."
     },
     {
-      "word": "make up",
-      "meaning": "uydurmak, barışmak",
+      "word": "Die",
+      "meaning": "ölmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "They made up after their argument."
+      "example": "Many animals die in the winter."
     },
     {
-      "word": "move on",
-      "meaning": "ilerlemek",
+      "word": "Expect",
+      "meaning": "beklemek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "Let’s move on to the next topic."
+      "example": "I expect you to be on time."
     },
     {
-      "word": "pick up",
-      "meaning": "almak, öğrenmek",
+      "word": "Build",
+      "meaning": "inşa etmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "She picked up Spanish very quickly."
+      "example": "They will build a new bridge."
     },
     {
-      "word": "point out",
-      "meaning": "göstermek, belirtmek",
+      "word": "Stay",
+      "meaning": "kalmak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "He pointed out the mistakes in the report."
+      "example": "Please stay here."
     },
     {
-      "word": "put off",
-      "meaning": "ertelemek",
+      "word": "Fall",
+      "meaning": "düşmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "We had to put off the meeting until next week."
+      "example": "Be careful not to fall."
     },
     {
-      "word": "put up with",
-      "meaning": "katlanmak, dayanmak",
+      "word": "Cut",
+      "meaning": "kesmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "I can’t put up with his behavior anymore."
+      "example": "Cut the paper with scissors."
     },
     {
-      "word": "run into",
-      "meaning": "karşılaşmak",
+      "word": "Reach",
+      "meaning": "ulaşmak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "I ran into an old friend yesterday."
+      "example": "I can’t reach the top shelf."
     },
     {
-      "word": "set up",
-      "meaning": "kurmak, düzenlemek",
+      "word": "Decide",
+      "meaning": "karar vermek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "They set up the conference room for the meeting."
+      "example": "I will decide tomorrow."
     },
     {
-      "word": "show up",
-      "meaning": "görünmek, gelmek",
+      "word": "Remain",
+      "meaning": "kalmak (bir durumda)",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "He didn’t show up to the event."
+      "example": "He remained silent throughout the meeting."
     },
     {
-      "word": "take off",
-      "meaning": "havalanmak, çıkarmak",
+      "word": "Suggest",
+      "meaning": "önermek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "The plane took off on time."
+      "example": "I suggest that we leave early."
     },
     {
-      "word": "take over",
-      "meaning": "devralmak",
+      "word": "Raise",
+      "meaning": "artırmak, yükseltmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "The company was taken over by a new owner."
+      "example": "They raised the prices last month."
     },
     {
-      "word": "turn off",
-      "meaning": "kapamak",
+      "word": "Pass",
+      "meaning": "geçmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "Please turn off the lights when you leave."
+      "example": "The car passed by quickly."
     },
     {
-      "word": "turn on",
-      "meaning": "açmak",
+      "word": "Sell",
+      "meaning": "satmak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "Turn on the TV, I want to watch the news."
+      "example": "I will sell my old phone."
     },
     {
-      "word": "work out",
-      "meaning": "çalışmak, çözmek",
+      "word": "Require",
+      "meaning": "gerektirmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "Everything will work out in the end."
+      "example": "This job requires a lot of experience."
     },
     {
-      "word": "wrap up",
-      "meaning": "tamamlamak",
+      "word": "Report",
+      "meaning": "bildirmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "Let’s wrap up the meeting."
+      "example": "He reported the incident to the police."
     },
     {
-      "word": "bring up",
-      "meaning": "konu açmak",
+      "word": "Pull",
+      "meaning": "çekmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "She brought up an important point during the discussion."
+      "example": "Pull the door to open it."
     },
     {
-      "word": "call off",
+      "word": "Return",
+      "meaning": "geri dönmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "I will return the book tomorrow."
+    },
+    {
+      "word": "Explain",
+      "meaning": "açıklamak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "Can you explain this concept to me?"
+    },
+    {
+      "word": "Hope",
+      "meaning": "ummak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "I hope to see you again soon."
+    },
+    {
+      "word": "Develop",
+      "meaning": "geliştirmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "We need to develop new strategies."
+    },
+    {
+      "word": "Carry",
+      "meaning": "taşımak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "He carried the boxes into the house."
+    },
+    {
+      "word": "Break",
+      "meaning": "kırmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "Be careful not to break the glass."
+    },
+    {
+      "word": "Receive",
+      "meaning": "almak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "I received your email yesterday."
+    },
+    {
+      "word": "Achieve",
+      "meaning": "başarmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "She achieved her goals through hard work."
+  },
+  {
+      "word": "Advise",
+      "meaning": "tavsiye etmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "I advise you to take a break."
+  },
+  {
+      "word": "Assume",
+      "meaning": "varsaymak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "Don’t assume everything will be easy."
+  },
+  {
+      "word": "Attack",
+      "meaning": "saldırmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The army will attack at dawn."
+  },
+  {
+      "word": "Avoid",
+      "meaning": "kaçınmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "Try to avoid bad habits."
+  },
+  {
+      "word": "Believe",
+      "meaning": "inanmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "I believe in your abilities."
+  },
+  {
+      "word": "Borrow",
+      "meaning": "ödünç almak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "Can I borrow your pen?"
+  },
+  {
+      "word": "Cancel",
       "meaning": "iptal etmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "They called off the event due to bad weather."
-    },
-    {
-      "word": "back up",
-      "meaning": "geri gitmek, desteklemek",
+      "example": "We need to cancel the meeting."
+  },
+  {
+      "word": "Collect",
+      "meaning": "toplamak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "Please back up your data before we begin."
-    },
-    {
-      "word": "break down",
-      "meaning": "bozulmak, sinirleri boşalmak",
+      "example": "He collects rare coins."
+  },
+  {
+      "word": "Compare",
+      "meaning": "karşılaştırmak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "The car broke down on the way to the station."
-    },
-    {
-      "word": "call back",
-      "meaning": "geri aramak",
+      "example": "Let’s compare the two products."
+  },
+  {
+      "word": "Confirm",
+      "meaning": "doğrulamak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "I will call you back as soon as I’m free."
-    },
-    {
-      "word": "check out",
-      "meaning": "kontrol etmek, çıkış yapmak",
+      "example": "Please confirm your reservation."
+  },
+  {
+      "word": "Decide",
+      "meaning": "karar vermek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "Check out that new movie on Netflix."
-    },
-    {
-      "word": "come across",
-      "meaning": "tesadüfen karşılaşmak",
+      "example": "It’s time to decide what to do."
+  },
+  {
+      "word": "Demand",
+      "meaning": "talep etmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "I came across an old friend at the market."
-    },
-    {
-      "word": "come up with",
-      "meaning": "bulmak, üretmek",
+      "example": "She demanded an explanation."
+  },
+  {
+      "word": "Describe",
+      "meaning": "tanımlamak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "She came up with an excellent idea."
-    },
-    {
-      "word": "cut down on",
-      "meaning": "azaltmak",
+      "example": "Can you describe the problem?"
+  },
+  {
+      "word": "Discover",
+      "meaning": "keşfetmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "You need to cut down on junk food."
-    },
-    {
-      "word": "find out",
-      "meaning": "öğrenmek, keşfetmek",
+      "example": "She discovered a hidden treasure."
+  },
+  {
+      "word": "Encourage",
+      "meaning": "cesaretlendirmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "I just found out that we’re moving next week."
-    },
-    {
-      "word": "get along",
-      "meaning": "iyi geçinmek",
+      "example": "I encourage you to keep going."
+  },
+  {
+      "word": "Establish",
+      "meaning": "kurmak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "We get along very well at work."
-    },
-    {
-      "word": "get away",
-      "meaning": "kaçmak, uzaklaşmak",
+      "example": "They established a new company."
+  },
+  {
+      "word": "Explain",
+      "meaning": "açıklamak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "I need to get away for a while."
-    },
-    {
-      "word": "get by",
-      "meaning": "idare etmek",
+      "example": "Can you explain this topic?"
+  },
+  {
+      "word": "Expect",
+      "meaning": "beklemek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "We can get by with a little help from our friends."
-    },
-    {
-      "word": "get in",
-      "meaning": "girmek",
+      "example": "I expect to see you tomorrow."
+  },
+  {
+      "word": "Fail",
+      "meaning": "başarısız olmak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "She got in the car and drove away."
-    },
-    {
-      "word": "give up",
-      "meaning": "pes etmek",
+      "example": "If you fail, try again."
+  },
+  {
+      "word": "Handle",
+      "meaning": "başa çıkmak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "Don’t give up, you’re almost there!"
-    },
-    {
-      "word": "go on",
-      "meaning": "devam etmek",
+      "example": "She knows how to handle stress."
+  },
+  {
+      "word": "Identify",
+      "meaning": "tanımlamak, kimliğini belirlemek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "The show must go on."
-    },
-    {
-      "word": "go over",
-      "meaning": "gözden geçirmek",
+      "example": "Can you identify the problem?"
+  },
+  {
+      "word": "Improve",
+      "meaning": "geliştirmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "Let’s go over the details one more time."
-    },
-    {
-      "word": "give in",
-      "meaning": "teslim olmak",
+      "example": "You can improve your skills with practice."
+  },
+  {
+      "word": "Increase",
+      "meaning": "artırmak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "He finally gave in after hours of discussion."
-    },
-    {
-      "word": "go after",
-      "meaning": "peşinden gitmek, takip etmek",
+      "example": "The company plans to increase production."
+  },
+  {
+      "word": "Influence",
+      "meaning": "etkilemek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "She decided to go after her dreams and become a doctor."
-    },
-    {
-      "word": "go off",
-      "meaning": "patlamak, çalmak (alarm)",
+      "example": "Her speech influenced many people."
+  },
+  {
+      "word": "Inform",
+      "meaning": "bilgilendirmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "The alarm went off at 6 am."
-    },
-    {
-      "word": "hold on",
-      "meaning": "beklemek, tutunmak",
+      "example": "Please inform me about the details."
+  },
+  {
+      "word": "Manage",
+      "meaning": "yönetmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "Hold on, I’ll be right back."
-    },
-    {
-      "word": "hold up",
-      "meaning": "soymak, gecikmek",
+      "example": "He manages the team effectively."
+  },
+  {
+      "word": "Mention",
+      "meaning": "bahsetmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "The bank was held up by robbers."
-    },
-    {
-      "word": "keep up",
-      "meaning": "ayak uydurmak, sürdürmek",
+      "example": "Don’t forget to mention the meeting."
+  },
+  {
+      "word": "Offer",
+      "meaning": "teklif etmek",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "She can’t keep up with the pace of the work."
-    },
+      "example": "She offered me a job."
+  },
+  {
+      "word": "Provide",
+      "meaning": "sağlamak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "They provide excellent customer service."
+  },
+  {
+      "word": "Refuse",
+      "meaning": "reddetmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "He refused to help me."
+  },
+  {
+      "word": "Remember",
+      "meaning": "hatırlamak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "Remember to lock the door."
+  },
+  {
+      "word": "Require",
+      "meaning": "gerektirmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "This position requires strong communication skills."
+  },
+  {
+      "word": "Respond",
+      "meaning": "yanıtlamak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "Please respond to the invitation."
+  },
+  {
+      "word": "Suggest",
+      "meaning": "önermek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "I suggest we meet at 3 PM."
+  },
+  {
+      "word": "Support",
+      "meaning": "desteklemek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "They support each other through tough times."
+  },
+  {
+      "word": "Throw",
+      "meaning": "atmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "She threw the ball to me."
+  },
+  {
+      "word": "Treat",
+      "meaning": "tedavi etmek, davranmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "He treats his employees well."
+  },
+  {
+      "word": "Warn",
+      "meaning": "uyarmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "She warned me about the dangerous road."
+  }
+    
+  ],"A2":[
     {
-      "word": "let down",
+      "word": "Take after",
+      "meaning": "benzemek (birine)",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "She takes after her mother in terms of looks."
+  },
+  {
+      "word": "Take off",
+      "meaning": "kalkmak (uçak), başarılı olmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The plane will take off in about an hour."
+  },
+  {
+      "word": "Turn down",
+      "meaning": "reddetmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "He turned down the job offer."
+  },
+  {
+      "word": "Take back",
+      "meaning": "geri almak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "I had to take back the books to the library."
+  },
+  {
+      "word": "Run into",
+      "meaning": "rastlamak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "I ran into an old friend at the grocery store."
+  },
+  {
+      "word": "Turn up",
+      "meaning": "gelmek, ortaya çıkmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "She turned up at the party unexpectedly."
+  },
+  {
+      "word": "Break up",
+      "meaning": "ayrılmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "They decided to break up after five years together."
+  },
+  {
+      "word": "Call off",
+      "meaning": "iptal etmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "The meeting was called off due to bad weather."
+  },
+  {
+      "word": "Check in",
+      "meaning": "kaydolmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "We checked in at the hotel around 3 p.m."
+  },
+  {
+      "word": "Check out",
+      "meaning": "kontrol etmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "Check out the new movie this weekend."
+  },
+  {
+      "word": "Come in",
+      "meaning": "içeri girmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "Please come in and take a seat."
+  },
+  {
+      "word": "Cut off",
+      "meaning": "kesmek, koparmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "They cut off all communication with him."
+  },
+  {
+      "word": "Get across",
+      "meaning": "anlatmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "It’s hard to get across my point to him."
+  },
+  {
+      "word": "Get away",
+      "meaning": "kaçmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "We’re planning to get away for the weekend."
+  },
+  {
+      "word": "Give away",
+      "meaning": "bağışlamak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "She gave away all her old clothes."
+  },
+  {
+      "word": "Hang up",
+      "meaning": "telefonu kapamak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "I’ll hang up now, we’ll talk later."
+  },
+  {
+      "word": "Keep up with",
+      "meaning": "ayak uydurmak",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "I can’t keep up with all the work I have."
+  },
+  {
+      "word": "Let down",
       "meaning": "hayal kırıklığına uğratmak",
       "repeatDay": "",
       "knowed": false,
       "trueKnowedCount": 0,
       "wordFinished": false,
-      "example": "I’m sorry, I didn’t mean to let you down."
-    },
-    {
-      "word": "let in",
-      "meaning": "içeri almak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Let me in, it’s freezing outside!"
-    },
-    {
-      "word": "look after",
-      "meaning": "bakmak, ilgilenmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "She looks after her younger brother."
-    },
-    {
-      "word": "look for",
-      "meaning": "aramak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I’m looking for my keys."
-    },
-    {
-      "word": "look forward to",
-      "meaning": "dört gözle beklemek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I look forward to meeting you."
-    },
-    {
-      "word": "look into",
-      "meaning": "incelmek, araştırmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "We will look into your complaint."
-    },
-    {
-      "word": "make up for",
-      "meaning": "telafi etmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "He tried to make up for his mistakes."
-    },
-    {
-      "word": "pass out",
-      "meaning": "bayılmak, bilincini kaybetmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "He passed out after running the marathon."
-    },
-    {
-      "word": "make out",
-      "meaning": "anlamak, çözmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I couldn’t make out what he was saying."
-    },
-    {
-      "word": "make up",
-      "meaning": "yapmak, oluşturmak, barışmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "They made up after their argument."
-    },
-    {
-      "word": "wake up",
-      "meaning": "uyanmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I wake up at 7 AM every day."
-    },
-    {
-      "word": "throw away",
-      "meaning": "atmak, çöpe atmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "Don’t throw away that old photo."
-    },
-    {
-      "word": "shut down",
-      "meaning": "kapamak, kapatmak",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "They decided to shut down the project."
-    },
-    {
-      "word": "take after",
-      "meaning": "benzemek, taklit etmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "She takes after her mother in looks."
-    }
+      "example": "Don’t let me down, please!"
+  },{
+    "word": "Go through",
+    "meaning": "gözden geçirmek",
+    "repeatDay": "",
+    "knowed": false,
+    "trueKnowedCount": 0,
+    "wordFinished": false,
+    "example": "Let’s go through the report one more time."
+},
+{
+    "word": "Hang on",
+    "meaning": "beklemek, sıkıca tutunmak",
+    "repeatDay": "",
+    "knowed": false,
+    "trueKnowedCount": 0,
+    "wordFinished": false,
+    "example": "Hang on, I’m coming!"
+},
+{
+    "word": "Look back on",
+    "meaning": "geçmişi hatırlamak",
+    "repeatDay": "",
+    "knowed": false,
+    "trueKnowedCount": 0,
+    "wordFinished": false,
+    "example": "She often looks back on her childhood with fondness."
+},
+{
+    "word": "Put up",
+    "meaning": "kurmak, misafir etmek",
+    "repeatDay": "",
+    "knowed": false,
+    "trueKnowedCount": 0,
+    "wordFinished": false,
+    "example": "They put me up for the night at their place."
+},
+{
+    "word": "Run across",
+    "meaning": "rastlamak",
+    "repeatDay": "",
+    "knowed": false,
+    "trueKnowedCount": 0,
+    "wordFinished": false,
+    "example": "I ran across an old friend at the mall yesterday."
+},
+{
+    "word": "Set out",
+    "meaning": "yola çıkmak, başlamak",
+    "repeatDay": "",
+    "knowed": false,
+    "trueKnowedCount": 0,
+    "wordFinished": false,
+    "example": "They set out early for their road trip."
+},
+{
+    "word": "Stand out",
+    "meaning": "öne çıkmak",
+    "repeatDay": "",
+    "knowed": false,
+    "trueKnowedCount": 0,
+    "wordFinished": false,
+    "example": "His skills really stand out in this project."
+},
+{
+    "word": "Take down",
+    "meaning": "yazmak, indirmek",
+    "repeatDay": "",
+    "knowed": false,
+    "trueKnowedCount": 0,
+    "wordFinished": false,
+    "example": "I’ll take down the notes during the meeting."
+},
+{
+    "word": "Talk over",
+    "meaning": "tartışmak",
+    "repeatDay": "",
+    "knowed": false,
+    "trueKnowedCount": 0,
+    "wordFinished": false,
+    "example": "We need to talk over the details before finalizing."
+},
+{
+    "word": "Turn out",
+    "meaning": "sonuçlanmak, meydana çıkmak",
+    "repeatDay": "",
+    "knowed": false,
+    "trueKnowedCount": 0,
+    "wordFinished": false,
+    "example": "It turned out to be a great decision in the end."
+},
+{
+    "word": "Work out",
+    "meaning": "spor yapmak, çözmek",
+    "repeatDay": "",
+    "knowed": false,
+    "trueKnowedCount": 0,
+    "wordFinished": false,
+    "example": "I work out every morning to stay fit."
+},
+{
+    "word": "Back up",
+    "meaning": "yedeklemek, desteklemek",
+    "repeatDay": "",
+    "knowed": false,
+    "trueKnowedCount": 0,
+    "wordFinished": false,
+    "example": "Make sure to back up your data regularly."
+},
+{
+    "word": "Come across",
+    "meaning": "karşılaşmak, tesadüfen bulmak",
+    "repeatDay": "",
+    "knowed": false,
+    "trueKnowedCount": 0,
+    "wordFinished": false,
+    "example": "I came across an interesting article online."
+},
+{
+    "word": "Look into",
+    "meaning": "araştırmak, incelemek",
+    "repeatDay": "",
+    "knowed": false,
+    "trueKnowedCount": 0,
+    "wordFinished": false,
+    "example": "I’ll look into the issue and get back to you."
+},
+{
+    "word": "Make up",
+    "meaning": "barışmak, uydurmak",
+    "repeatDay": "",
+    "knowed": false,
+    "trueKnowedCount": 0,
+    "wordFinished": false,
+    "example": "We had an argument, but later we made up."
+},
+{
+    "word": "Pull over",
+    "meaning": "kenara çekmek",
+    "repeatDay": "",
+    "knowed": false,
+    "trueKnowedCount": 0,
+    "wordFinished": false,
+    "example": "The police officer asked him to pull over."
+},
+{
+    "word": "Put up with",
+    "meaning": "katlanmak",
+    "repeatDay": "",
+    "knowed": false,
+    "trueKnowedCount": 0,
+    "wordFinished": false,
+    "example": "She can’t put up with his constant complaining."
+},
+{
+    "word": "Set up",
+    "meaning": "kurmak",
+    "repeatDay": "",
+    "knowed": false,
+    "trueKnowedCount": 0,
+    "wordFinished": false,
+    "example": "They will set up a new office in the city."
+},{
+  "word": "Set off",
+  "meaning": "yola çıkmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "We set off early to avoid the traffic."
+},
+{
+  "word": "Take over",
+  "meaning": "devralmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "She will take over the project from next week."
+},
+{
+  "word": "Give away",
+  "meaning": "bağışlamak, hediye etmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "They decided to give away their old clothes."
+},
+{
+  "word": "Go ahead",
+  "meaning": "ilerlemek, devam etmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "You can go ahead with the plan."
+},
+{
+  "word": "Keep up",
+  "meaning": "devam etmek, ayak uydurmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "He managed to keep up with the fast-paced class."
+},
+{
+  "word": "Look up",
+  "meaning": "yukarı bakmak, aramak (kelime)",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "You should look up the meaning of this word."
+},
+{
+  "word": "Make up for",
+  "meaning": "telafi etmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "I will make up for my absence by working overtime."
+},
+{
+  "word": "Pick out",
+  "meaning": "seçmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "He picked out a beautiful dress for her."
+},
+{
+  "word": "Put down",
+  "meaning": "yere koymak, küçümsemek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "He put down the book on the table."
+},
+{
+  "word": "Run away",
+  "meaning": "kaçmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "The dog ran away from home."
+},
+{
+  "word": "Show off",
+  "meaning": "gösteriş yapmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "She likes to show off her new car."
+},
+{
+  "word": "Take in",
+  "meaning": "içeri almak, anlamak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "It’s a lot of information to take in all at once."
+},
+{
+  "word": "Think over",
+  "meaning": "üzerinde düşünmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "Think over your options before making a decision."
+},
+{
+  "word": "Turn around",
+  "meaning": "döndürmek, tersine çevirmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "Turn around and face the other direction."
+},
+{
+  "word": "Bring in",
+  "meaning": "getirmek, sunmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "They will bring in a new consultant for the project."
+},
+{
+  "word": "Check out",
+  "meaning": "gözden geçirmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "Check out this new website, it’s really interesting."
+},
+{
+  "word": "Come up with",
+  "meaning": "bulmak, ileri sürmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "She came up with a brilliant idea for the project."
+},
+{
+  "word": "Cut down on",
+  "meaning": "azaltmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "I need to cut down on my sugar intake."
+},
+{
+  "word": "Give up on",
+  "meaning": "umudunu kesmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "Don’t give up on your dreams."
+},{
+  "word": "Look forward to",
+  "meaning": "dört gözle beklemek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "I look forward to meeting you soon."
+},
+{
+  "word": "Show up",
+  "meaning": "gelmek, ortaya çıkmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "He didn’t show up at the party."
+},
+{
+  "word": "Take up",
+  "meaning": "başlamak, zaman almak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "She decided to take up painting as a hobby."
+},
+{
+  "word": "Turn off",
+  "meaning": "kapatmak (elektronik alet)",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "Please turn off the lights when you leave."
+},
+{
+  "word": "Turn on",
+  "meaning": "açmak (elektronik alet)",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "Don’t forget to turn on the oven."
+},
+{
+  "word": "Check in",
+  "meaning": "kaydını yaptırmak (otelde vb.)",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "We need to check in at the hotel by 3 PM."
+},
+{
+  "word": "Check out",
+  "meaning": "göz atmak, kontrol etmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "I’ll check out the website later."
+},
+{
+  "word": "Go on",
+  "meaning": "devam etmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "The show must go on despite the rain."
+},
+{
+  "word": "Get out",
+  "meaning": "çıkmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "Get out of the house, it’s on fire!"
+},
+{
+  "word": "Go over",
+  "meaning": "gözden geçirmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "Let’s go over the details before the meeting."
+},
+{
+  "word": "Break down",
+  "meaning": "bozulmak, parçalanmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "The car broke down on the highway."
+},
+{
+  "word": "Bring about",
+  "meaning": "neden olmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "The new policy will bring about changes in the system."
+},
+{
+  "word": "Give in",
+  "meaning": "teslim olmak, boyun eğmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "He gave in to his temptation and ate the chocolate."
+},
+{
+  "word": "Hold on",
+  "meaning": "tutmak, beklemek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "Hold on, I’ll be right back."
+},
+{
+  "word": "Look out",
+  "meaning": "dikkat etmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "Look out for the car!"
+},
+{
+  "word": "Make out",
+  "meaning": "anlamak, güçlükle görmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "I can’t make out what he’s saying."
+},
+{
+  "word": "Put off",
+  "meaning": "ertelemek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "They decided to put off the meeting until next week."
+},
+{
+  "word": "Run out of",
+  "meaning": "tükenmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "We ran out of milk, could you buy some?"
+},{
+  "word": "Bring up",
+  "meaning": "bahsetmek, yetiştirmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "She brought up an important point in the meeting."
+},
+{
+  "word": "Call off",
+  "meaning": "iptal etmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "The event was called off due to the rain."
+},
+{
+  "word": "Carry on",
+  "meaning": "devam etmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "You can carry on with your work."
+},
+{
+  "word": "Drop off",
+  "meaning": "bırakmak, uykuya dalmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "I will drop you off at the station."
+},
+{
+  "word": "Find out",
+  "meaning": "öğrenmek, keşfetmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "I need to find out more about the project."
+},
+{
+  "word": "Get along",
+  "meaning": "iyi geçinmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "They get along really well with each other."
+},
+{
+  "word": "Give up",
+  "meaning": "bırakmak, vazgeçmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "Don’t give up on your dreams."
+},
+{
+  "word": "Look into",
+  "meaning": "incelemek, araştırmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "I’ll look into the issue and get back to you."
+},
+{
+  "word": "Put up with",
+  "meaning": "katlanmak, tahammül etmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "She can’t put up with his behavior anymore."
+},
+{
+  "word": "Work out",
+  "meaning": "çözmek, spor yapmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "We need to work out a solution to this problem."
+},
+{
+  "word": "Look after",
+  "meaning": "bakmak, ilgilenmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "She looks after her younger brother."
+},
+{
+  "word": "Make up",
+  "meaning": "uydurmak, barışmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "They made up after their argument."
+},
+{
+  "word": "Pick up",
+  "meaning": "almak, toplamak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "Can you pick up the groceries for me?"
+},
+{
+  "word": "Run into",
+  "meaning": "karşılaşmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "I ran into an old friend at the mall."
+},
+{
+  "word": "Set up",
+  "meaning": "kurmak, düzenlemek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "They set up a new office in the city."
+},
+{
+  "word": "Take off",
+  "meaning": "kalkmak (uçak), başarılı olmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "The plane will take off at 7 PM."
+},
+{
+  "word": "Turn up",
+  "meaning": "gelmek, ortaya çıkmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "He didn’t turn up for the meeting."
+},
+{
+  "word": "Turn down",
+  "meaning": "reddetmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "She turned down the job offer."
+},
+{
+  "word": "Call back",
+  "meaning": "geri aramak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "I will call you back later."
+},
+{
+  "word": "Hang out",
+  "meaning": "vakit geçirmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "We like to hang out at the park."
+},
+{
+  "word": "Pick up",
+  "meaning": "toplamak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "I need to pick up my books from the library."
+},
+{
+  "word": "Put off",
+  "meaning": "ertelemek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "We had to put off the meeting until next week."
+},
+{
+  "word": "Run out of",
+  "meaning": "bitmek",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "We ran out of milk, so I need to go to the store."
+},
+{
+  "word": "Set up",
+  "meaning": "kurmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "They will set up the conference room for the meeting."
+},
+{
+  "word": "Take over",
+  "meaning": "devralmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "The company was taken over by a larger corporation."
+},
+{
+  "word": "Turn off",
+  "meaning": "kapatmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "Don’t forget to turn off the lights before you leave."
+},
+{
+  "word": "Work out",
+  "meaning": "çözmek, spor yapmak",
+  "repeatDay": "",
+  "knowed": false,
+  "trueKnowedCount": 0,
+  "wordFinished": false,
+  "example": "She works out at the gym every morning."
+}
   ]
+  
+
 }
