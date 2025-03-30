@@ -17,6 +17,18 @@
       "trueKnowedCount": 0,
       "wordFinished": false,
       "example": "We became friends in high school."
+    }
+  ]
+  ,
+  "A2" :[
+    {
+      "word": "Get",
+      "meaning": "almak, edinmek",
+      "repeatDay": "",
+      "knowed": false,
+      "trueKnowedCount": 0,
+      "wordFinished": false,
+      "example": "I need to get some food."
     },
     {
       "word": "break up",
@@ -593,18 +605,6 @@
       "trueKnowedCount": 0,
       "wordFinished": false,
       "example": "My flatmate is moving out next month."
-    }
-  ]
-  ,
-  "A2" :[
-    {
-      "word": "Get",
-      "meaning": "almak, edinmek",
-      "repeatDay": "",
-      "knowed": false,
-      "trueKnowedCount": 0,
-      "wordFinished": false,
-      "example": "I need to get some food."
     },
     {
       "word": "Take",
