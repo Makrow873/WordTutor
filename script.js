@@ -121,7 +121,7 @@ function startLearningFromRepeatWords() {
 
 function startLearningFromStorage(level) {  
       
-    fetch("data.json",{method: 'GET',
+    fetch("data-copy.json",{method: 'GET',
         mode: 'cors', // CORS izinleri için
         cache: 'no-cache', // Önbelleği iptal et
         credentials: 'same-origin'})
